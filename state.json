@@ -1,6 +1,19 @@
 {
+  "instant_seen_post_ids": [
+    "t3_1sifujv",
+    "t3_1sifutf",
+    "t3_1sifxq1",
+    "t3_1sifzth",
+    "t3_1sig0md",
+    "t3_1sig17q",
+    "t3_1sig20h",
+    "t3_1sig3n4",
+    "t3_1sig4ru"
+  ],
   "last_run_utc": 1775905781,
-  "seen_post_ids": [
+  "last_summary_utc": 0,
+  "summary_buffer": [],
+  "summary_seen_post_ids": [
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",

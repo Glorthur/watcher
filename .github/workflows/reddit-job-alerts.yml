@@ -3,6 +3,7 @@ name: Reddit Job Alerts
 on:
   schedule:
     - cron: "*/10 * * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,6 +28,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          WATCHER_MODE: ${{ github.event.schedule == '0 13 * * *' && 'summary' || 'instant' }}
         run: python watcher.py
 
       - name: Commit updated state

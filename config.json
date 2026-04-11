@@ -21,65 +21,143 @@
     "r/CRM",
     "r/hubspot"
   ],
-  "required_keyword_groups": [
-    {
-      "name": "opportunity",
-      "terms": [
-        "hiring",
-        "we're hiring",
-        "we are hiring",
-        "job opening",
-        "open role",
-        "position available",
-        "looking for",
-        "seeking",
-        "contract role",
-        "freelance role"
-      ]
-    },
-    {
-      "name": "target role",
-      "terms": [
-        "recruiter",
-        "recruiting",
-        "talent acquisition",
-        "sourcer",
-        "hr",
-        "human resources",
-        "people ops",
-        "people operations",
-        "employee experience",
-        "crm",
-        "salesforce",
-        "hubspot",
-        "revops",
-        "operations manager",
-        "business operations",
-        "copywriter",
-        "copywriting"
-      ]
-    }
-  ],
-  "exclude_keywords": [
-    "advice",
-    "career question",
-    "interview",
-    "resume",
-    "salary",
-    "rant",
-    "laid off",
-    "fired",
-    "student",
-    "internship",
-    "volunteer",
-    "commission only",
-    "unpaid",
-    "homework",
-    "certification",
-    "exam",
-    "resume review"
-  ],
   "lookback_minutes": 20,
   "max_alerts_per_run": 20,
-  "max_seen_post_ids": 500
+  "max_seen_post_ids": 500,
+  "max_summary_buffer": 250,
+  "instant_rule": {
+    "required_keyword_groups": [
+      {
+        "name": "opportunity",
+        "source": "title",
+        "terms": [
+          "[hiring]",
+          "we're hiring",
+          "we are hiring",
+          "job opening",
+          "open role",
+          "position available",
+          "looking for",
+          "seeking a",
+          "contract role",
+          "freelance role"
+        ]
+      },
+      {
+        "name": "target role",
+        "source": "all",
+        "terms": [
+          "recruiter",
+          "recruiting coordinator",
+          "talent acquisition",
+          "technical recruiter",
+          "sourcer",
+          "hr manager",
+          "human resources",
+          "people ops",
+          "people operations",
+          "employee experience",
+          "crm specialist",
+          "salesforce admin",
+          "salesforce administrator",
+          "hubspot specialist",
+          "revops",
+          "revenue operations",
+          "operations manager",
+          "business operations",
+          "copywriter",
+          "copywriting"
+        ]
+      }
+    ],
+    "exclude_keywords": [
+      "advice",
+      "career question",
+      "interview",
+      "resume",
+      "salary",
+      "rant",
+      "laid off",
+      "fired",
+      "student",
+      "internship",
+      "volunteer",
+      "commission only",
+      "commission-based",
+      "unpaid",
+      "homework",
+      "certification",
+      "exam",
+      "resume review",
+      "looking for advice",
+      "hiring manager advice",
+      "how do i get hired"
+    ]
+  },
+  "summary_rule": {
+    "required_keyword_groups": [
+      {
+        "name": "opportunity",
+        "source": "title",
+        "terms": [
+          "hiring",
+          "job",
+          "open role",
+          "opening",
+          "position",
+          "for hire",
+          "looking for",
+          "seeking",
+          "contract",
+          "vacancy"
+        ]
+      },
+      {
+        "name": "target role",
+        "source": "all",
+        "terms": [
+          "recruiter",
+          "recruitment",
+          "talent acquisition",
+          "sourcer",
+          "hr generalist",
+          "hr coordinator",
+          "hr business partner",
+          "hr manager",
+          "human resources",
+          "people ops",
+          "people operations",
+          "employee experience",
+          "crm",
+          "salesforce",
+          "hubspot",
+          "revops",
+          "revenue operations",
+          "operations manager",
+          "business operations",
+          "sales operations",
+          "copywriter",
+          "copywriting"
+        ]
+      }
+    ],
+    "exclude_keywords": [
+      "advice",
+      "career question",
+      "interview",
+      "resume",
+      "rant",
+      "laid off",
+      "fired",
+      "student",
+      "internship",
+      "volunteer",
+      "commission only",
+      "unpaid",
+      "homework",
+      "certification",
+      "exam",
+      "resume review"
+    ]
+  }
 }

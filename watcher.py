@@ -14,6 +14,7 @@ import xml.etree.ElementTree as ET
 from html import escape
 from pathlib import Path
 from typing import Any
+from calendar import timegm
 
 
 ROOT = Path(__file__).resolve().parent
@@ -21,7 +22,6 @@ CONFIG_PATH = ROOT / "config.json"
 STATE_PATH = ROOT / "state.json"
 USER_AGENT = "job-watcher/1.0 (+https://github.com/Glorthur/watcher)"
 DEFAULT_LOOKBACK_MINUTES = 20
-DEFAULT_POST_LIMIT = 25
 DEFAULT_MAX_ALERTS = 20
 ATOM_NAMESPACE = {"atom": "http://www.w3.org/2005/Atom"}
 
@@ -41,18 +41,21 @@ def normalize_text(value: str) -> str:
 
 def load_state() -> dict[str, Any]:
     if not STATE_PATH.exists():
-        return {"seen_post_ids": [], "last_run_utc": 0}
+        return {
+            "instant_seen_post_ids": [],
+            "summary_seen_post_ids": [],
+            "summary_buffer": [],
+            "last_run_utc": 0,
+            "last_summary_utc": 0,
+        }
 
     state = load_json(STATE_PATH)
-    state.setdefault("seen_post_ids", [])
+    state.setdefault("instant_seen_post_ids", [])
+    state.setdefault("summary_seen_post_ids", [])
+    state.setdefault("summary_buffer", [])
     state.setdefault("last_run_utc", 0)
+    state.setdefault("last_summary_utc", 0)
     return state
-
-
-def build_listing_url(subreddit: str, limit: int) -> str:
-    subreddit_name = subreddit.removeprefix("r/")
-    query = urllib.parse.urlencode({"limit": limit, "raw_json": 1})
-    return f"https://www.reddit.com/r/{subreddit_name}/new.json?{query}"
 
 
 def build_feed_url(subreddit: str) -> str:
@@ -118,25 +121,26 @@ def iso_to_epoch(value: str) -> int:
         return 0
     try:
         struct = time.strptime(value, "%Y-%m-%dT%H:%M:%S%z")
-        return int(time.mktime(struct))
+        return int(timegm(struct))
     except ValueError:
         return 0
 
 
-def matches_keywords(post: dict[str, Any], config: dict[str, Any]) -> tuple[bool, str]:
-    haystack = normalize_text(
+def matches_rule(post: dict[str, Any], rule: dict[str, Any]) -> tuple[bool, str]:
+    title_text = normalize_text(post.get("title", ""))
+    body_text = normalize_text(
         " ".join(
             [
-                post.get("title", ""),
                 post.get("selftext", ""),
                 post.get("link_flair_text", "") or "",
             ]
         )
     )
+    haystack = normalize_text(" ".join([title_text, body_text]))
 
-    include_terms = [normalize_text(term) for term in config.get("include_keywords", []) if term.strip()]
-    exclude_terms = [normalize_text(term) for term in config.get("exclude_keywords", []) if term.strip()]
-    required_groups = config.get("required_keyword_groups", [])
+    include_terms = [normalize_text(term) for term in rule.get("include_keywords", []) if term.strip()]
+    exclude_terms = [normalize_text(term) for term in rule.get("exclude_keywords", []) if term.strip()]
+    required_groups = rule.get("required_keyword_groups", [])
 
     for term in exclude_terms:
         if term and term in haystack:
@@ -147,7 +151,9 @@ def matches_keywords(post: dict[str, Any], config: dict[str, Any]) -> tuple[bool
         for group in required_groups:
             group_name = group.get("name", "group")
             group_terms = [normalize_text(term) for term in group.get("terms", []) if term.strip()]
-            group_matches = [term for term in group_terms if term in haystack]
+            group_source = group.get("source", "all")
+            search_text = title_text if group_source == "title" else haystack
+            group_matches = [term for term in group_terms if term in search_text]
             if not group_matches:
                 return False, f"missing required group '{group_name}'"
             matched_groups.append(f"{group_name}: {', '.join(group_matches[:3])}")
@@ -210,40 +216,84 @@ def send_telegram_message(bot_token: str, chat_id: str, text: str) -> None:
         raise RuntimeError(f"Telegram send failed: {payload}")
 
 
-def collect_matches(config: dict[str, Any], state: dict[str, Any]) -> tuple[list[dict[str, Any]], set[str]]:
+def collect_posts(config: dict[str, Any], state: dict[str, Any]) -> list[dict[str, Any]]:
     now_utc = int(time.time())
     lookback_minutes = int(config.get("lookback_minutes", DEFAULT_LOOKBACK_MINUTES))
     cutoff_utc = max(now_utc - (lookback_minutes * 60), int(state.get("last_run_utc", 0)) - 60)
-    seen_ids = set(state.get("seen_post_ids", []))
-
-    matches: list[dict[str, Any]] = []
-    updated_seen = set(seen_ids)
+    posts: list[dict[str, Any]] = []
 
     for subreddit in config.get("subreddits", []):
         feed_url = build_feed_url(subreddit)
         feed_text = fetch_text(feed_url)
-        posts = parse_feed(feed_text, subreddit)
+        feed_posts = parse_feed(feed_text, subreddit)
 
-        for post in posts:
+        for post in feed_posts:
             post_id = post.get("id")
-            if not post_id or post_id in seen_ids:
+            if not post_id:
                 continue
             if not is_recent(post, cutoff_utc):
                 continue
+            posts.append(post)
 
-            matched, reason = matches_keywords(post, config)
-            updated_seen.add(post_id)
-            if matched:
-                matches.append({"post": post, "reason": reason})
-
-    matches.sort(key=lambda item: int(item["post"].get("created_utc", 0)))
-    return matches[: int(config.get("max_alerts_per_run", DEFAULT_MAX_ALERTS))], updated_seen
+    posts.sort(key=lambda item: int(item.get("created_utc", 0)))
+    return posts
 
 
-def prune_seen_post_ids(seen_ids: set[str], matches: list[dict[str, Any]], max_seen: int) -> list[str]:
-    ordered_ids = [item["post"]["id"] for item in matches if item["post"].get("id")]
+def collect_rule_matches(
+    posts: list[dict[str, Any]],
+    rule: dict[str, Any],
+    seen_ids: set[str],
+    max_items: int,
+) -> tuple[list[dict[str, Any]], set[str]]:
+    matches: list[dict[str, Any]] = []
+    updated_seen = set(seen_ids)
+
+    for post in posts:
+        post_id = str(post.get("id", ""))
+        if not post_id or post_id in seen_ids:
+            continue
+        matched, reason = matches_rule(post, rule)
+        updated_seen.add(post_id)
+        if matched:
+            matches.append({"post": post, "reason": reason})
+
+    return matches[:max_items], updated_seen
+
+
+def prune_seen_post_ids(seen_ids: set[str], recent_post_ids: list[str], max_seen: int) -> list[str]:
+    ordered_ids = [post_id for post_id in recent_post_ids if post_id]
     ordered_ids.extend(sorted(seen_ids - set(ordered_ids)))
     return ordered_ids[:max_seen]
+
+
+def append_summary_buffer(buffer: list[dict[str, Any]], matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_id = {item["post"]["id"]: item for item in buffer if item.get("post", {}).get("id")}
+    for item in matches:
+        post_id = item["post"].get("id")
+        if post_id:
+            by_id[post_id] = item
+    ordered = sorted(by_id.values(), key=lambda item: int(item["post"].get("created_utc", 0)))
+    return ordered
+
+
+def format_summary_message(summary_matches: list[dict[str, Any]]) -> str:
+    lines = [f"Daily Reddit opportunity summary ({len(summary_matches)} matches)"]
+    for item in summary_matches[:20]:
+        post = item["post"]
+        permalink = post.get("permalink", "")
+        url = permalink if str(permalink).startswith("http") else f"https://www.reddit.com{permalink}"
+        lines.append(
+            "\n".join(
+                [
+                    f"<b>{escape(post.get('title', '').strip())}</b>",
+                    f"{escape(post.get('subreddit_name_prefixed', 'r/unknown'))} | u/{escape(post.get('author', '[deleted]'))}",
+                    escape(url),
+                ]
+            )
+        )
+    if len(summary_matches) > 20:
+        lines.append(f"...and {len(summary_matches) - 20} more.")
+    return "\n\n".join(lines)
 
 
 def main() -> int:
@@ -259,11 +309,45 @@ def main() -> int:
 
     config = load_json(CONFIG_PATH)
     state = load_state()
+    mode = os.getenv("WATCHER_MODE", "instant").strip().lower()
 
     try:
-        matches, seen_ids = collect_matches(config, state)
-        for item in matches:
-            send_telegram_message(bot_token, chat_id, format_message(item["post"], item["reason"]))
+        posts = collect_posts(config, state)
+
+        instant_rule = config.get("instant_rule", {})
+        summary_rule = config.get("summary_rule", {})
+        max_alerts = int(config.get("max_alerts_per_run", DEFAULT_MAX_ALERTS))
+        max_seen = int(config.get("max_seen_post_ids", 500))
+        recent_post_ids = [str(post.get("id", "")) for post in posts if post.get("id")]
+
+        instant_matches, instant_seen = collect_rule_matches(
+            posts,
+            instant_rule,
+            set(state.get("instant_seen_post_ids", [])),
+            max_alerts,
+        )
+        summary_matches, summary_seen = collect_rule_matches(
+            posts,
+            summary_rule,
+            set(state.get("summary_seen_post_ids", [])),
+            int(config.get("max_summary_buffer", 200)),
+        )
+
+        summary_buffer = append_summary_buffer(state.get("summary_buffer", []), summary_matches)
+        sent_count = 0
+
+        if mode == "summary":
+            if summary_buffer:
+                send_telegram_message(bot_token, chat_id, format_summary_message(summary_buffer))
+                sent_count = len(summary_buffer)
+                summary_buffer = []
+                state["last_summary_utc"] = int(time.time())
+            print(f"Sent daily summary with {sent_count} item(s).")
+        else:
+            for item in instant_matches:
+                send_telegram_message(bot_token, chat_id, format_message(item["post"], item["reason"]))
+            sent_count = len(instant_matches)
+            print(f"Sent {sent_count} instant alert(s).")
     except urllib.error.HTTPError as exc:
         print(f"HTTP error: {exc.code} {exc.reason}", file=sys.stderr)
         return 1
@@ -271,14 +355,14 @@ def main() -> int:
         print(f"Network error: {exc.reason}", file=sys.stderr)
         return 1
 
-    max_seen = int(config.get("max_seen_post_ids", 500))
     next_state = {
         "last_run_utc": int(time.time()),
-        "seen_post_ids": prune_seen_post_ids(seen_ids, matches, max_seen),
+        "last_summary_utc": int(state.get("last_summary_utc", 0)),
+        "instant_seen_post_ids": prune_seen_post_ids(instant_seen, recent_post_ids, max_seen),
+        "summary_seen_post_ids": prune_seen_post_ids(summary_seen, recent_post_ids, max_seen),
+        "summary_buffer": summary_buffer[: int(config.get("max_summary_buffer", 200))],
     }
     save_json(STATE_PATH, next_state)
-
-    print(f"Sent {len(matches)} alert(s).")
     return 0
 
 
