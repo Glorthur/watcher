@@ -2,7 +2,7 @@ name: Reddit Job Alerts
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/30 * * * *"
     - cron: "0 13 * * *"
   workflow_dispatch:
 

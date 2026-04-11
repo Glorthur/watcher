@@ -1,10 +1,10 @@
 # Reddit job alerts
 
-This project checks selected Reddit communities every 10 minutes for strict instant alerts and sends one broader daily Telegram summary.
+This project checks selected Reddit communities every 30 minutes for strict instant alerts and sends one broader daily Telegram summary.
 
 ## How it works
 
-- GitHub Actions runs `watcher.py` every 10 minutes for strict alerts and once daily for a broader digest.
+- GitHub Actions runs `watcher.py` every 30 minutes for strict alerts and once daily for a broader digest.
 - The script fetches subreddit RSS feeds from the configured subreddits.
 - Posts are matched against two rule sets in [`config.json`](C:\Users\USER\Desktop\Codex%20Home\config.json):
   - `instant_rule` for stricter, high-signal alerts
@@ -44,6 +44,7 @@ Then look for `message.chat.id` in the JSON response.
 ## Notes
 
 - GitHub Actions is not real-time. Expect delays around the 10-minute schedule plus any GitHub queueing.
+- GitHub Actions is not real-time. Expect delays around the 30-minute schedule plus any GitHub queueing.
 - The daily summary currently runs at 13:00 UTC. Change the second cron line in [`.github/workflows/reddit-job-alerts.yml`](C:\Users\USER\Desktop\Codex%20Home\.github\workflows\reddit-job-alerts.yml) if you want a different time.
 - Some listed subreddits are discussion-heavy. Tighten `instant_rule` if alerts get noisy, or widen `summary_rule` if the daily digest feels too narrow.
 - If you want faster alerts later, move the same script to an always-on VPS and change the poll interval.
