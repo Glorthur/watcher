@@ -1,0 +1,86 @@
+{
+  "subreddits": [
+    "r/remotework",
+    "r/hiring",
+    "r/freelance",
+    "r/forhire",
+    "r/jobbit",
+    "r/remotejobs",
+    "r/digitalnomad",
+    "r/copywriting",
+    "r/careerguidance",
+    "r/jobs",
+    "r/careers",
+    "r/careeradvice",
+    "r/recruiting",
+    "r/humanresources",
+    "r/AskHR",
+    "r/revops",
+    "r/SalesforceCareers",
+    "r/salesforce",
+    "r/CRM",
+    "r/hubspot"
+  ],
+  "required_keyword_groups": [
+    {
+      "name": "opportunity",
+      "terms": [
+        "hiring",
+        "we're hiring",
+        "we are hiring",
+        "job opening",
+        "open role",
+        "position available",
+        "looking for",
+        "seeking",
+        "contract role",
+        "freelance role"
+      ]
+    },
+    {
+      "name": "target role",
+      "terms": [
+        "recruiter",
+        "recruiting",
+        "talent acquisition",
+        "sourcer",
+        "hr",
+        "human resources",
+        "people ops",
+        "people operations",
+        "employee experience",
+        "crm",
+        "salesforce",
+        "hubspot",
+        "revops",
+        "operations manager",
+        "business operations",
+        "copywriter",
+        "copywriting"
+      ]
+    }
+  ],
+  "exclude_keywords": [
+    "advice",
+    "career question",
+    "interview",
+    "resume",
+    "salary",
+    "rant",
+    "laid off",
+    "fired",
+    "student",
+    "internship",
+    "volunteer",
+    "commission only",
+    "unpaid",
+    "homework",
+    "certification",
+    "exam",
+    "resume review"
+  ],
+  "lookback_minutes": 20,
+  "post_limit": 25,
+  "max_alerts_per_run": 20,
+  "max_seen_post_ids": 500
+}
