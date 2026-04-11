@@ -10,6 +10,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from base64 import b64encode
 from html import escape
 from pathlib import Path
 from typing import Any
@@ -57,6 +58,42 @@ def fetch_listing(url: str) -> dict[str, Any]:
     request = urllib.request.Request(
         url,
         headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        payload = response.read().decode("utf-8")
+    return json.loads(payload)
+
+
+def get_reddit_access_token(client_id: str, client_secret: str) -> str:
+    credentials = b64encode(f"{client_id}:{client_secret}".encode("utf-8")).decode("ascii")
+    body = urllib.parse.urlencode({"grant_type": "client_credentials"}).encode("utf-8")
+    request = urllib.request.Request(
+        "https://www.reddit.com/api/v1/access_token",
+        data=body,
+        headers={
+            "Authorization": f"Basic {credentials}",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "User-Agent": USER_AGENT,
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+    token = payload.get("access_token")
+    if not token:
+        raise RuntimeError(f"Reddit token request failed: {payload}")
+    return token
+
+
+def fetch_listing_oauth(url: str, access_token: str) -> dict[str, Any]:
+    oauth_url = url.replace("https://www.reddit.com", "https://oauth.reddit.com", 1)
+    request = urllib.request.Request(
+        oauth_url,
+        headers={
+            "Authorization": f"Bearer {access_token}",
             "User-Agent": USER_AGENT,
             "Accept": "application/json",
         },
@@ -153,7 +190,9 @@ def send_telegram_message(bot_token: str, chat_id: str, text: str) -> None:
         raise RuntimeError(f"Telegram send failed: {payload}")
 
 
-def collect_matches(config: dict[str, Any], state: dict[str, Any]) -> tuple[list[dict[str, Any]], set[str]]:
+def collect_matches(
+    config: dict[str, Any], state: dict[str, Any], access_token: str | None = None
+) -> tuple[list[dict[str, Any]], set[str]]:
     now_utc = int(time.time())
     lookback_minutes = int(config.get("lookback_minutes", DEFAULT_LOOKBACK_MINUTES))
     limit = int(config.get("post_limit", DEFAULT_POST_LIMIT))
@@ -165,7 +204,7 @@ def collect_matches(config: dict[str, Any], state: dict[str, Any]) -> tuple[list
 
     for subreddit in config.get("subreddits", []):
         url = build_listing_url(subreddit, limit)
-        payload = fetch_listing(url)
+        payload = fetch_listing_oauth(url, access_token) if access_token else fetch_listing(url)
         posts = payload.get("data", {}).get("children", [])
 
         for item in posts:
@@ -202,11 +241,21 @@ def main() -> int:
         print("Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID", file=sys.stderr)
         return 1
 
+    reddit_client_id = os.getenv("REDDIT_CLIENT_ID")
+    reddit_client_secret = os.getenv("REDDIT_CLIENT_SECRET")
+    access_token: str | None = None
+    if reddit_client_id and reddit_client_secret:
+        try:
+            access_token = get_reddit_access_token(reddit_client_id, reddit_client_secret)
+        except (urllib.error.HTTPError, urllib.error.URLError, RuntimeError) as exc:
+            print(f"Reddit auth failed: {exc}", file=sys.stderr)
+            return 1
+
     config = load_json(CONFIG_PATH)
     state = load_state()
 
     try:
-        matches, seen_ids = collect_matches(config, state)
+        matches, seen_ids = collect_matches(config, state, access_token=access_token)
         for item in matches:
             send_telegram_message(bot_token, chat_id, format_message(item["post"], item["reason"]))
     except urllib.error.HTTPError as exc:
