@@ -5,7 +5,7 @@ This project checks selected Reddit communities every 10 minutes and sends Teleg
 ## How it works
 
 - GitHub Actions runs `watcher.py` on a 10-minute schedule.
-- The script fetches `/new` listings from the configured subreddits.
+- The script fetches subreddit RSS feeds from the configured subreddits.
 - Posts are matched against keyword rules in [`config.json`](C:\Users\USER\Desktop\Codex%20Home\config.json).
 - Matching posts are sent to Telegram.
 - [`state.json`](C:\Users\USER\Desktop\Codex%20Home\state.json) is committed back to the repository so the next run avoids duplicate alerts.
@@ -24,8 +24,6 @@ This project checks selected Reddit communities every 10 minutes and sends Teleg
 3. Add repository secrets:
    - `TELEGRAM_BOT_TOKEN`
    - `TELEGRAM_CHAT_ID`
-   - `REDDIT_CLIENT_ID`
-   - `REDDIT_CLIENT_SECRET`
 4. Run the workflow manually once with `workflow_dispatch` to verify Telegram delivery.
 5. Edit [`config.json`](C:\Users\USER\Desktop\Codex%20Home\config.json) any time you want to tune subreddits or filters.
 
@@ -40,17 +38,6 @@ You can get the chat ID by opening:
 `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`
 
 Then look for `message.chat.id` in the JSON response.
-
-## Reddit API setup
-
-1. Open [Reddit app preferences](https://www.reddit.com/prefs/apps).
-2. Click `create another app`.
-3. Choose `script`.
-4. Give it a name like `watcher`.
-5. Put `http://localhost:8080` as the redirect URI.
-6. After saving:
-   - the small string under the app name is your `REDDIT_CLIENT_ID`
-   - the `secret` field is your `REDDIT_CLIENT_SECRET`
 
 ## Notes
 

@@ -10,7 +10,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from base64 import b64encode
+import xml.etree.ElementTree as ET
 from html import escape
 from pathlib import Path
 from typing import Any
@@ -19,10 +19,11 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
 STATE_PATH = ROOT / "state.json"
-USER_AGENT = "job-watcher/1.0 (+https://github.com/)"
+USER_AGENT = "job-watcher/1.0 (+https://github.com/Glorthur/watcher)"
 DEFAULT_LOOKBACK_MINUTES = 20
 DEFAULT_POST_LIMIT = 25
 DEFAULT_MAX_ALERTS = 20
+ATOM_NAMESPACE = {"atom": "http://www.w3.org/2005/Atom"}
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -54,53 +55,72 @@ def build_listing_url(subreddit: str, limit: int) -> str:
     return f"https://www.reddit.com/r/{subreddit_name}/new.json?{query}"
 
 
-def fetch_listing(url: str) -> dict[str, Any]:
+def build_feed_url(subreddit: str) -> str:
+    subreddit_name = subreddit.removeprefix("r/")
+    return f"https://www.reddit.com/r/{subreddit_name}/new/.rss"
+
+
+def fetch_text(url: str) -> str:
     request = urllib.request.Request(
         url,
         headers={
             "User-Agent": USER_AGENT,
-            "Accept": "application/json",
+            "Accept": "application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
         },
     )
     with urllib.request.urlopen(request, timeout=30) as response:
-        payload = response.read().decode("utf-8")
-    return json.loads(payload)
+        return response.read().decode("utf-8")
 
 
-def get_reddit_access_token(client_id: str, client_secret: str) -> str:
-    credentials = b64encode(f"{client_id}:{client_secret}".encode("utf-8")).decode("ascii")
-    body = urllib.parse.urlencode({"grant_type": "client_credentials"}).encode("utf-8")
-    request = urllib.request.Request(
-        "https://www.reddit.com/api/v1/access_token",
-        data=body,
-        headers={
-            "Authorization": f"Basic {credentials}",
-            "Content-Type": "application/x-www-form-urlencoded",
-            "User-Agent": USER_AGENT,
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        payload = json.loads(response.read().decode("utf-8"))
-    token = payload.get("access_token")
-    if not token:
-        raise RuntimeError(f"Reddit token request failed: {payload}")
-    return token
+def parse_feed(feed_text: str, subreddit: str) -> list[dict[str, Any]]:
+    root = ET.fromstring(feed_text)
+    posts: list[dict[str, Any]] = []
+
+    for entry in root.findall("atom:entry", ATOM_NAMESPACE):
+        title = entry.findtext("atom:title", default="", namespaces=ATOM_NAMESPACE)
+        post_id = entry.findtext("atom:id", default="", namespaces=ATOM_NAMESPACE)
+        link = ""
+        for link_node in entry.findall("atom:link", ATOM_NAMESPACE):
+            href = link_node.attrib.get("href")
+            if href:
+                link = href
+                break
+        updated = entry.findtext("atom:updated", default="", namespaces=ATOM_NAMESPACE)
+        author_name = entry.findtext("atom:author/atom:name", default="[deleted]", namespaces=ATOM_NAMESPACE)
+        content = entry.findtext("atom:content", default="", namespaces=ATOM_NAMESPACE)
+
+        created_utc = iso_to_epoch(updated)
+        posts.append(
+            {
+                "id": post_id or link,
+                "title": title,
+                "selftext": content,
+                "link_flair_text": "",
+                "author": author_name,
+                "created_utc": created_utc,
+                "subreddit_name_prefixed": subreddit if subreddit.startswith("r/") else f"r/{subreddit}",
+                "permalink": normalize_permalink(link),
+            }
+        )
+
+    return posts
 
 
-def fetch_listing_oauth(url: str, access_token: str) -> dict[str, Any]:
-    oauth_url = url.replace("https://www.reddit.com", "https://oauth.reddit.com", 1)
-    request = urllib.request.Request(
-        oauth_url,
-        headers={
-            "Authorization": f"Bearer {access_token}",
-            "User-Agent": USER_AGENT,
-            "Accept": "application/json",
-        },
-    )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        payload = response.read().decode("utf-8")
-    return json.loads(payload)
+def normalize_permalink(url: str) -> str:
+    parsed = urllib.parse.urlparse(url)
+    if parsed.netloc.endswith("reddit.com"):
+        return parsed.path or "/"
+    return url
+
+
+def iso_to_epoch(value: str) -> int:
+    if not value:
+        return 0
+    try:
+        struct = time.strptime(value, "%Y-%m-%dT%H:%M:%S%z")
+        return int(time.mktime(struct))
+    except ValueError:
+        return 0
 
 
 def matches_keywords(post: dict[str, Any], config: dict[str, Any]) -> tuple[bool, str]:
@@ -153,7 +173,7 @@ def format_message(post: dict[str, Any], reason: str) -> str:
     subreddit = escape(post.get("subreddit_name_prefixed", "r/unknown"))
     author = escape(post.get("author", "[deleted]"))
     permalink = post.get("permalink", "")
-    url = f"https://www.reddit.com{permalink}"
+    url = permalink if str(permalink).startswith("http") else f"https://www.reddit.com{permalink}"
     flair = post.get("link_flair_text")
     flair_text = f"\n<b>Flair:</b> {escape(flair)}" if flair else ""
 
@@ -190,12 +210,9 @@ def send_telegram_message(bot_token: str, chat_id: str, text: str) -> None:
         raise RuntimeError(f"Telegram send failed: {payload}")
 
 
-def collect_matches(
-    config: dict[str, Any], state: dict[str, Any], access_token: str | None = None
-) -> tuple[list[dict[str, Any]], set[str]]:
+def collect_matches(config: dict[str, Any], state: dict[str, Any]) -> tuple[list[dict[str, Any]], set[str]]:
     now_utc = int(time.time())
     lookback_minutes = int(config.get("lookback_minutes", DEFAULT_LOOKBACK_MINUTES))
-    limit = int(config.get("post_limit", DEFAULT_POST_LIMIT))
     cutoff_utc = max(now_utc - (lookback_minutes * 60), int(state.get("last_run_utc", 0)) - 60)
     seen_ids = set(state.get("seen_post_ids", []))
 
@@ -203,12 +220,11 @@ def collect_matches(
     updated_seen = set(seen_ids)
 
     for subreddit in config.get("subreddits", []):
-        url = build_listing_url(subreddit, limit)
-        payload = fetch_listing_oauth(url, access_token) if access_token else fetch_listing(url)
-        posts = payload.get("data", {}).get("children", [])
+        feed_url = build_feed_url(subreddit)
+        feed_text = fetch_text(feed_url)
+        posts = parse_feed(feed_text, subreddit)
 
-        for item in posts:
-            post = item.get("data", {})
+        for post in posts:
             post_id = post.get("id")
             if not post_id or post_id in seen_ids:
                 continue
@@ -241,21 +257,11 @@ def main() -> int:
         print("Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID", file=sys.stderr)
         return 1
 
-    reddit_client_id = os.getenv("REDDIT_CLIENT_ID")
-    reddit_client_secret = os.getenv("REDDIT_CLIENT_SECRET")
-    access_token: str | None = None
-    if reddit_client_id and reddit_client_secret:
-        try:
-            access_token = get_reddit_access_token(reddit_client_id, reddit_client_secret)
-        except (urllib.error.HTTPError, urllib.error.URLError, RuntimeError) as exc:
-            print(f"Reddit auth failed: {exc}", file=sys.stderr)
-            return 1
-
     config = load_json(CONFIG_PATH)
     state = load_state()
 
     try:
-        matches, seen_ids = collect_matches(config, state, access_token=access_token)
+        matches, seen_ids = collect_matches(config, state)
         for item in matches:
             send_telegram_message(bot_token, chat_id, format_message(item["post"], item["reason"]))
     except urllib.error.HTTPError as exc:

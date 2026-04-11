@@ -80,7 +80,6 @@
     "resume review"
   ],
   "lookback_minutes": 20,
-  "post_limit": 25,
   "max_alerts_per_run": 20,
   "max_seen_post_ids": 500
 }
