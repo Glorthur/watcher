@@ -1,0 +1,185 @@
+{
+  "lookback_hours": 36,
+  "max_alerts_per_run": 10,
+  "max_seen_ids": 10000,
+  "seed_on_first_run": true,
+  "sources": [
+    {
+      "kind": "remotive",
+      "label": "Remotive"
+    },
+    {
+      "kind": "remoteok",
+      "label": "Remote OK"
+    },
+    {
+      "kind": "jobicy",
+      "label": "Jobicy"
+    },
+    {
+      "kind": "greenhouse",
+      "board_token": "remotecom",
+      "label": "Remote"
+    },
+    {
+      "kind": "greenhouse",
+      "board_token": "canonical",
+      "label": "Canonical"
+    },
+    {
+      "kind": "greenhouse",
+      "board_token": "gitlab",
+      "label": "GitLab"
+    },
+    {
+      "kind": "greenhouse",
+      "board_token": "hubspotjobs",
+      "label": "HubSpot"
+    },
+    {
+      "kind": "greenhouse",
+      "board_token": "webflow",
+      "label": "Webflow"
+    },
+    {
+      "kind": "greenhouse",
+      "board_token": "sumup",
+      "label": "SumUp"
+    },
+    {
+      "kind": "greenhouse",
+      "board_token": "wikimedia",
+      "label": "Wikimedia Foundation"
+    },
+    {
+      "kind": "greenhouse",
+      "board_token": "crisp",
+      "label": "Crisp"
+    },
+    {
+      "kind": "ashby",
+      "board": "deel",
+      "label": "Deel"
+    },
+    {
+      "kind": "ashby",
+      "board": "oyster",
+      "label": "Oyster"
+    },
+    {
+      "kind": "ashby",
+      "board": "preply",
+      "label": "Preply"
+    },
+    {
+      "kind": "ashby",
+      "board": "snyk",
+      "label": "Snyk"
+    }
+  ],
+  "filters": {
+    "title_keywords": [
+      "founder's associate",
+      "founders associate",
+      "founder associate",
+      "founder's office",
+      "founders office",
+      "office of the founder",
+      "executive assistant",
+      "executive business partner",
+      "executive operations",
+      "chief of staff",
+      "ea / chief of staff",
+      "special assistant",
+      "strategic assistant",
+      "business assistant",
+      "office of the ceo",
+      "hr analyst",
+      "hr coordinator",
+      "hr generalist",
+      "hr operations",
+      "human resources analyst",
+      "human resources coordinator",
+      "human resources generalist",
+      "human resources specialist",
+      "people operations analyst",
+      "people operations coordinator",
+      "people operations specialist",
+      "people ops analyst",
+      "people ops coordinator",
+      "people ops specialist",
+      "operations coordinator",
+      "operations cordinator",
+      "operations analyst",
+      "operations specialist",
+      "business operations analyst",
+      "business operations coordinator",
+      "crm specialist",
+      "crm administrator",
+      "salesforce specialist",
+      "salesforce administrator",
+      "salesforce admin",
+      "sales operations analyst",
+      "revenue operations analyst",
+      "revops analyst",
+      "payroll analyst",
+      "payroll specialist",
+      "payroll implementation specialist",
+      "onboarding specialist",
+      "onboarding coordinator"
+    ],
+    "body_keywords": [],
+    "exclude_keywords": [
+      "account executive",
+      "sales executive",
+      "sales assistant",
+      "business development",
+      "sales development representative",
+      "sdr",
+      "recruiting coordinator",
+      "recruiter",
+      "talent acquisition",
+      "intern",
+      "internship",
+      "software engineer",
+      "staff engineer",
+      "senior engineer",
+      "frontend engineer",
+      "backend engineer",
+      "full stack engineer",
+      "developer",
+      "designer",
+      "product manager",
+      "marketing manager",
+      "customer support",
+      "customer success"
+    ],
+    "remote_required": true,
+    "require_region_match": true,
+    "allow_global_remote": true,
+    "region_presets": [
+      "emea"
+    ],
+    "region_keywords": [
+      "remote - emea",
+      "remote within emea",
+      "remote from europe",
+      "remote from africa"
+    ],
+    "disallowed_region_keywords": [
+      "united states only",
+      "us only",
+      "u.s. only",
+      "canada only",
+      "north america only",
+      "latam only",
+      "latin america only",
+      "apac only",
+      "asia only",
+      "india only",
+      "philippines only",
+      "australia only",
+      "new zealand only"
+    ]
+  }
+}
