@@ -549,7 +549,8 @@ def matches_filters(job: JobPosting, filters: dict[str, Any], cutoff_utc: int) -
     body_matches = [term for term in body_keywords if term in search_text]
 
     for term in exclude_keywords:
-        if term in search_text:
+        pattern = r'\b' + re.escape(term) + r'\b'
+        if re.search(pattern, search_text):
             return False, f"excluded by '{term}'"
 
     if title_keywords and not title_matches:
@@ -562,16 +563,21 @@ def matches_filters(job: JobPosting, filters: dict[str, Any], cutoff_utc: int) -
         return False, "role is not marked remote"
 
     for term in disallowed_region_terms:
-        if term in search_text:
+        pattern = r'\b' + re.escape(term) + r'\b'
+        if re.search(pattern, search_text):
             return False, f"excluded by region restriction '{term}'"
 
     region_match = ""
     if require_region_match:
-        global_match = allow_global_remote and any(term in search_text for term in GLOBAL_REMOTE_TERMS)
+        global_match = allow_global_remote and any(
+            re.search(r'\b' + re.escape(term) + r'\b', search_text) for term in GLOBAL_REMOTE_TERMS
+        )
         if global_match:
             region_match = "global remote"
         else:
-            matched_term = next((term for term in region_terms if term in search_text), "")
+            matched_term = next(
+                (term for term in region_terms if re.search(r'\b' + re.escape(term) + r'\b', search_text)), ""
+            )
             if not matched_term:
                 return False, "location does not show EMEA/Africa eligibility"
             region_match = matched_term
@@ -619,12 +625,14 @@ def collect_matches(config: dict[str, Any], state: dict[str, Any]) -> tuple[list
             continue
 
         matched, reason = matches_filters(job, config.get("filters", {}), cutoff_utc)
-        updated_seen.add(job.dedupe_id)
         if matched:
             matches.append({"job": job, "reason": reason})
 
     matches.sort(key=lambda item: item["job"].published_utc, reverse=True)
-    return matches[:max_alerts], updated_seen, now_utc, seeded_count
+    alerted_matches = matches[:max_alerts]
+    for item in alerted_matches:
+        updated_seen.add(item["job"].dedupe_id)
+    return alerted_matches, updated_seen, now_utc, seeded_count
 
 
 def prune_seen_ids(seen_ids: set[str], max_seen_ids: int) -> list[str]:

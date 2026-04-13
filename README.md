@@ -57,14 +57,14 @@ Wellfound is not in the live poller. Their public jobs pages currently return a 
 
 Files:
 
-- [`job_watcher.py`](C:\Users\USER\Desktop\Codex%20Home\job_watcher.py): ATS polling and Telegram delivery.
-- [`job_config.json`](C:\Users\USER\Desktop\Codex%20Home\job_config.json): sources and job filters.
-- [`job_state.json`](C:\Users\USER\Desktop\Codex%20Home\job_state.json): dedupe state for direct job alerts.
-- [`.github/workflows/job-board-alerts.yml`](C:\Users\USER\Desktop\Codex%20Home\.github\workflows\job-board-alerts.yml): hourly GitHub Actions workflow.
+- [`job_watcher.py`](job_watcher.py): ATS polling and Telegram delivery.
+- [`job_config.json`](job_config.json): sources and job filters.
+- [`job_state.json`](job_state.json): dedupe state for direct job alerts.
+- [`.github/workflows/job-board-alerts.yml`](.github/workflows/job-board-alerts.yml): hourly GitHub Actions workflow.
 
 How to tune it:
 
-1. Edit [`job_config.json`](C:\Users\USER\Desktop\Codex%20Home\job_config.json) if you want to swap out the starter list of 15 curated sources.
+1. Edit [`job_config.json`](job_config.json) if you want to swap out the starter list of 15 curated sources.
 2. Add the same Telegram secrets used by the Reddit watcher:
    - `TELEGRAM_BOT_TOKEN`
    - `TELEGRAM_CHAT_ID`
