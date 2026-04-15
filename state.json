@@ -1,16 +1,21 @@
 {
   "instant_seen_post_ids": [
-    "t3_1slumqn",
-    "t3_1slunq5",
-    "t3_1sluqx1",
-    "t3_1slurj1",
-    "t3_1sluvdn",
-    "t3_1sluvhd",
-    "t3_1sluwns",
-    "t3_1slux5t",
-    "t3_1slux7j",
-    "t3_1sluyfg",
-    "t3_1sluysi",
+    "t3_1slx8p1",
+    "t3_1slx8qt",
+    "t3_1slx94c",
+    "t3_1slx9nh",
+    "t3_1slxae0",
+    "t3_1slxaud",
+    "t3_1slxb4g",
+    "t3_1slxc05",
+    "t3_1slxcob",
+    "t3_1slxe6w",
+    "t3_1slxf31",
+    "t3_1slxfqk",
+    "t3_1slxh5o",
+    "t3_1slxhub",
+    "t3_1slxi3b",
+    "t3_1slxigk",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -494,14 +499,9 @@
     "t3_1slmup0",
     "t3_1slmvnj",
     "t3_1slpn9v",
-    "t3_1slpnti",
-    "t3_1slpoux",
-    "t3_1slpoxk",
-    "t3_1slppi1",
-    "t3_1slpq1p",
-    "t3_1slpqsi"
+    "t3_1slpnti"
   ],
-  "last_run_utc": 1776224927,
+  "last_run_utc": 1776232935,
   "last_summary_utc": 1776177941,
   "summary_buffer": [
     {
@@ -529,20 +529,51 @@
         "title": "[For Hire] Lead Generation, Sales, Cold Outreach & CRM Management - $200"
       },
       "reason": "matched required groups: opportunity: for hire; target role: crm"
+    },
+    {
+      "post": {
+        "author": "/u/Creative-Nature710",
+        "created_utc": 1776232149,
+        "id": "t3_1slxb4g",
+        "link_flair_text": "",
+        "permalink": "/r/jobs/comments/1slxb4g/resigned_from_current_job_after_accepting_tell_to/",
+        "selftext": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Creative-Nature710\"> /u/Creative-Nature710 </a> <br/> <span><a href=\"/r/recruitinghell/comments/1slx6im/resigned_from_current_job_after_accepting_tell_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/jobs/comments/1slxb4g/resigned_from_current_job_after_accepting_tell_to/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/jobs",
+        "title": "Resigned from current job after accepting- tell to recruiter?"
+      },
+      "reason": "matched required groups: opportunity: job; target role: recruiter"
+    },
+    {
+      "post": {
+        "author": "/u/Purplewood_",
+        "created_utc": 1776232438,
+        "id": "t3_1slxe6w",
+        "link_flair_text": "",
+        "permalink": "/r/hiring/comments/1slxe6w/for_hire_fulltime_virtual_assistant_email/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I\u2019m a dedicated Virtual Assistant with a background in Business Purchasing &amp; Supply Chain Management and over 4 years of experience in procurement, coordination, and administrative support.</p> <p>I\u2019m currently available for full-time remote work and can assist with:</p> <p>\u2022 Email management and inbox organization</p> <p>\u2022 Customer support and client communication</p> <p>\u2022 Data entry and administrative tasks</p> <p>\u2022 Vendor coordination and follow-ups</p> <p>\u2022 Internet research and documentation</p> <p>I\u2019m highly organized, detail-oriented, and reliable, with a strong ability to manage tasks independently and communicate effectively in a remote environment.</p> <p>Availability: Full-time (flexible across time zones)</p> <p>Rate: $15/hour </p> <p>If you\u2019re looking for a dependable Virtual Assistant to support your business operations, feel free to message me or comment below.</p> <p>Looking forward to connecting!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Purplewood_\"> /u/Purplewood_ </a> <br/> <span><a href=\"https://www.reddit.com/r/hiring/comments/1slxe6w/for_hire_fulltime_virtual_assistant_email/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/hiring/comments/1slxe6w/for_hire_fulltime_virtual_assistant_email/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/hiring",
+        "title": "[For Hire] Full-Time Virtual Assistant \u2013 Email Handling, Customer Support & Admin Support ($15/hr)"
+      },
+      "reason": "matched required groups: opportunity: for hire; target role: business operations"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1slumqn",
-    "t3_1slunq5",
-    "t3_1sluqx1",
-    "t3_1slurj1",
-    "t3_1sluvdn",
-    "t3_1sluvhd",
-    "t3_1sluwns",
-    "t3_1slux5t",
-    "t3_1slux7j",
-    "t3_1sluyfg",
-    "t3_1sluysi",
+    "t3_1slx8p1",
+    "t3_1slx8qt",
+    "t3_1slx94c",
+    "t3_1slx9nh",
+    "t3_1slxae0",
+    "t3_1slxaud",
+    "t3_1slxb4g",
+    "t3_1slxc05",
+    "t3_1slxcob",
+    "t3_1slxe6w",
+    "t3_1slxf31",
+    "t3_1slxfqk",
+    "t3_1slxh5o",
+    "t3_1slxhub",
+    "t3_1slxi3b",
+    "t3_1slxigk",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1026,11 +1057,6 @@
     "t3_1slmup0",
     "t3_1slmvnj",
     "t3_1slpn9v",
-    "t3_1slpnti",
-    "t3_1slpoux",
-    "t3_1slpoxk",
-    "t3_1slppi1",
-    "t3_1slpq1p",
-    "t3_1slpqsi"
+    "t3_1slpnti"
   ]
 }
