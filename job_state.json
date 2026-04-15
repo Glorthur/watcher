@@ -1,5 +1,5 @@
 {
-  "last_run_utc": 1776233402,
+  "last_run_utc": 1776240262,
   "seen_ids": [
     "ashby:deel:0043b9b8-54ed-4fc6-a3d1-faf550de3b5e",
     "ashby:deel:02b1b917-a70d-49e1-a6eb-bcafb5161ed4",
@@ -1996,6 +1996,8 @@
     "greenhouse:sumup:8505515002",
     "greenhouse:sumup:8506109002",
     "greenhouse:sumup:8506117002",
+    "greenhouse:sumup:8507672002",
+    "greenhouse:sumup:8507673002",
     "greenhouse:webflow:6124408",
     "greenhouse:webflow:6709861",
     "greenhouse:webflow:6812928",
