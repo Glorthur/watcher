@@ -1,20 +1,18 @@
 {
   "instant_seen_post_ids": [
-    "t3_1smuq7d",
-    "t3_1smusxw",
-    "t3_1smutid",
-    "t3_1smuv4f",
-    "t3_1smuvq2",
-    "t3_1smuvtu",
-    "t3_1smuwn4",
-    "t3_1smuy0j",
-    "t3_1smuymz",
-    "t3_1smuz6k",
-    "t3_1smv04a",
-    "t3_1smv126",
-    "t3_1smv18u",
-    "t3_1smv1n1",
-    "t3_1smv1sx",
+    "t3_1smx2mh",
+    "t3_1smx2ts",
+    "t3_1smx4ei",
+    "t3_1smx505",
+    "t3_1smx5hc",
+    "t3_1smx6f8",
+    "t3_1smx6j0",
+    "t3_1smx6j9",
+    "t3_1smx74x",
+    "t3_1smx7ym",
+    "t3_1smx862",
+    "t3_1smx9cg",
+    "t3_1smxa5f",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -499,9 +497,11 @@
     "t3_1smj2e9",
     "t3_1smj3ee",
     "t3_1smlqjr",
-    "t3_1smlqne"
+    "t3_1smlqne",
+    "t3_1smuq7d",
+    "t3_1smusxw"
   ],
-  "last_run_utc": 1776319448,
+  "last_run_utc": 1776327253,
   "last_summary_utc": 1776263150,
   "summary_buffer": [
     {
@@ -529,24 +529,35 @@
         "title": "[For Hire] I build AI-powered apps, CRMs & dashboards in 48 hours | $50-75/hr | Remote"
       },
       "reason": "matched required groups: opportunity: for hire; target role: crm"
+    },
+    {
+      "post": {
+        "author": "/u/grace_infinity",
+        "created_utc": 1776327152,
+        "id": "t3_1smx9cg",
+        "link_flair_text": "",
+        "permalink": "/r/careerguidance/comments/1smx9cg/how_do_recruiters_view_freelancecontract/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Hello, if you have recruiting experience, I\u2019d really appreciate your perspective on this.</p> <p>I\u2019ve been working as a freelance/contract BI analyst since 2022 and haven\u2019t held a traditional full-time role during this period. On my CV, I\u2019ve listed several of the key organizations I\u2019ve worked with, but I\u2019m concerned about how the short engagement timelines might come across specifically, whether it could give the impression of instability.</p> <p>I\u2019ve restructured my CV a few times, but I keep coming back to the same concern. I also haven\u2019t received positive feedback from roles I\u2019ve applied to, even in cases where I felt strongly aligned with the requirements.</p> <p>I\u2019d really value any suggestions on how to better position my experience so it clearly communicates the value and consistency behind the work.</p> <p>Thank you.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/grace_infinity\"> /u/grace_infinity </a> <br/> <span><a href=\"https://www.reddit.com/r/careerguidance/comments/1smx9cg/how_do_recruiters_view_freelancecontract/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/careerguidance/comments/1smx9cg/how_do_recruiters_view_freelancecontract/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/careerguidance",
+        "title": "How do recruiters view freelance/contract experience with short-term client engagements?"
+      },
+      "reason": "matched required groups: opportunity: contract; target role: recruiter"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1smuq7d",
-    "t3_1smusxw",
-    "t3_1smutid",
-    "t3_1smuv4f",
-    "t3_1smuvq2",
-    "t3_1smuvtu",
-    "t3_1smuwn4",
-    "t3_1smuy0j",
-    "t3_1smuymz",
-    "t3_1smuz6k",
-    "t3_1smv04a",
-    "t3_1smv126",
-    "t3_1smv18u",
-    "t3_1smv1n1",
-    "t3_1smv1sx",
+    "t3_1smx2mh",
+    "t3_1smx2ts",
+    "t3_1smx4ei",
+    "t3_1smx505",
+    "t3_1smx5hc",
+    "t3_1smx6f8",
+    "t3_1smx6j0",
+    "t3_1smx6j9",
+    "t3_1smx74x",
+    "t3_1smx7ym",
+    "t3_1smx862",
+    "t3_1smx9cg",
+    "t3_1smxa5f",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1031,6 +1042,8 @@
     "t3_1smj2e9",
     "t3_1smj3ee",
     "t3_1smlqjr",
-    "t3_1smlqne"
+    "t3_1smlqne",
+    "t3_1smuq7d",
+    "t3_1smusxw"
   ]
 }
