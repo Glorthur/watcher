@@ -1,5 +1,5 @@
 {
-  "last_run_utc": 1776427514,
+  "last_run_utc": 1776434298,
   "seen_ids": [
     "ashby:deel:0043b9b8-54ed-4fc6-a3d1-faf550de3b5e",
     "ashby:deel:02b1b917-a70d-49e1-a6eb-bcafb5161ed4",
@@ -976,6 +976,7 @@
     "greenhouse:gitlab:8498481002",
     "greenhouse:gitlab:8499587002",
     "greenhouse:gitlab:8499647002",
+    "greenhouse:gitlab:8499907002",
     "greenhouse:gitlab:8500092002",
     "greenhouse:gitlab:8500190002",
     "greenhouse:gitlab:8502364002",
@@ -984,6 +985,7 @@
     "greenhouse:gitlab:8504039002",
     "greenhouse:gitlab:8504801002",
     "greenhouse:gitlab:8505529002",
+    "greenhouse:gitlab:8506618002",
     "greenhouse:hubspotjobs:159214",
     "greenhouse:hubspotjobs:2981337",
     "greenhouse:hubspotjobs:4928305",
