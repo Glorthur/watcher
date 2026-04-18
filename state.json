@@ -1,12 +1,17 @@
 {
   "instant_seen_post_ids": [
-    "t3_1spb8gq",
-    "t3_1spba71",
-    "t3_1spbd3k",
-    "t3_1spbj53",
-    "t3_1spbl8j",
-    "t3_1spbli6",
-    "t3_1spbmho",
+    "t3_1spckr6",
+    "t3_1spclb1",
+    "t3_1spcmic",
+    "t3_1spcopt",
+    "t3_1spcrc3",
+    "t3_1spcrjw",
+    "t3_1spcsw0",
+    "t3_1spctop",
+    "t3_1spcv20",
+    "t3_1spcxht",
+    "t3_1spcycu",
+    "t3_1spd0it",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -494,14 +499,9 @@
     "t3_1sp8mu5",
     "t3_1sp9s59",
     "t3_1sp9tex",
-    "t3_1sp9wb8",
-    "t3_1sp9xcd",
-    "t3_1sp9xfs",
-    "t3_1sp9xn2",
-    "t3_1sp9y72",
-    "t3_1sp9ztd"
+    "t3_1sp9wb8"
   ],
-  "last_run_utc": 1776551937,
+  "last_run_utc": 1776555545,
   "last_summary_utc": 1776520461,
   "summary_buffer": [
     {
@@ -516,16 +516,34 @@
         "title": "Would you pay to apply to jobs if it meant better outcomes?"
       },
       "reason": "matched required groups: opportunity: job; target role: recruiter"
+    },
+    {
+      "post": {
+        "author": "/u/RivenCalder",
+        "created_utc": 1776555517,
+        "id": "t3_1spd0it",
+        "link_flair_text": "",
+        "permalink": "/r/copywriting/comments/1spd0it/where_are_people_actually_finding_writing_jobs/",
+        "selftext": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RivenCalder\"> /u/RivenCalder </a> <br/> <span><a href=\"/r/writing/comments/1spcxxw/where_are_people_actually_finding_writing_jobs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/copywriting/comments/1spd0it/where_are_people_actually_finding_writing_jobs/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/copywriting",
+        "title": "Where are people actually finding writing jobs right now?"
+      },
+      "reason": "matched required groups: opportunity: job; target role: copywriting"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1spb8gq",
-    "t3_1spba71",
-    "t3_1spbd3k",
-    "t3_1spbj53",
-    "t3_1spbl8j",
-    "t3_1spbli6",
-    "t3_1spbmho",
+    "t3_1spckr6",
+    "t3_1spclb1",
+    "t3_1spcmic",
+    "t3_1spcopt",
+    "t3_1spcrc3",
+    "t3_1spcrjw",
+    "t3_1spcsw0",
+    "t3_1spctop",
+    "t3_1spcv20",
+    "t3_1spcxht",
+    "t3_1spcycu",
+    "t3_1spd0it",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1013,11 +1031,6 @@
     "t3_1sp8mu5",
     "t3_1sp9s59",
     "t3_1sp9tex",
-    "t3_1sp9wb8",
-    "t3_1sp9xcd",
-    "t3_1sp9xfs",
-    "t3_1sp9xn2",
-    "t3_1sp9y72",
-    "t3_1sp9ztd"
+    "t3_1sp9wb8"
   ]
 }
