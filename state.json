@@ -1,9 +1,11 @@
 {
   "instant_seen_post_ids": [
-    "t3_1sopwc6",
-    "t3_1sopwlx",
-    "t3_1sopwtl",
-    "t3_1soq6fb",
+    "t3_1sor8k1",
+    "t3_1sor8vc",
+    "t3_1soraki",
+    "t3_1sorffy",
+    "t3_1sorfir",
+    "t3_1sorh29",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -497,11 +499,9 @@
     "t3_1sol3ah",
     "t3_1sol3aj",
     "t3_1sol4hb",
-    "t3_1sol4mx",
-    "t3_1sol5ps",
-    "t3_1sol7bf"
+    "t3_1sol4mx"
   ],
-  "last_run_utc": 1776494841,
+  "last_run_utc": 1776499262,
   "last_summary_utc": 1776435328,
   "summary_buffer": [
     {
@@ -516,13 +516,28 @@
         "title": "Hiring for Salesforce Platform Manager/ Salesforce Architecht"
       },
       "reason": "matched required groups: opportunity: hiring; target role: salesforce"
+    },
+    {
+      "post": {
+        "author": "/u/Academic_Choice_7649",
+        "created_utc": 1776498532,
+        "id": "t3_1soraki",
+        "link_flair_text": "",
+        "permalink": "/r/remotework/comments/1soraki/need_your_feedback_on_this_job_platform/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>I build this platform <a href=\"http://scowter.com/\">Scowter.com</a> need your feedback</p> <p>Features to try :<br/> 150+ JOB Boards In Click<br/> AI Job march score<br/> AI Personalized Cv based on any jobs<br/> Recruiters Connect by each company</p> <p>Still no time ? we hunt jobs you relax</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Academic_Choice_7649\"> /u/Academic_Choice_7649 </a> <br/> <span><a href=\"https://www.reddit.com/r/remotework/comments/1soraki/need_your_feedback_on_this_job_platform/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/remotework/comments/1soraki/need_your_feedback_on_this_job_platform/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/remotework",
+        "title": "Need your feedback on this Job platform"
+      },
+      "reason": "matched required groups: opportunity: job; target role: recruiter"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1sopwc6",
-    "t3_1sopwlx",
-    "t3_1sopwtl",
-    "t3_1soq6fb",
+    "t3_1sor8k1",
+    "t3_1sor8vc",
+    "t3_1soraki",
+    "t3_1sorffy",
+    "t3_1sorfir",
+    "t3_1sorh29",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1016,8 +1031,6 @@
     "t3_1sol3ah",
     "t3_1sol3aj",
     "t3_1sol4hb",
-    "t3_1sol4mx",
-    "t3_1sol5ps",
-    "t3_1sol7bf"
+    "t3_1sol4mx"
   ]
 }
