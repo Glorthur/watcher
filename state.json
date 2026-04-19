@@ -1,13 +1,19 @@
 {
   "instant_seen_post_ids": [
-    "t3_1sps7dr",
-    "t3_1sps8hk",
-    "t3_1spsanr",
-    "t3_1spsc10",
-    "t3_1spsffj",
-    "t3_1spsg0k",
-    "t3_1spshck",
-    "t3_1spsir1",
+    "t3_1spt432",
+    "t3_1spt9ue",
+    "t3_1sptbu1",
+    "t3_1sptecn",
+    "t3_1sptfp4",
+    "t3_1sptfsm",
+    "t3_1sptgqp",
+    "t3_1spthi9",
+    "t3_1spti0r",
+    "t3_1spti3c",
+    "t3_1sptij3",
+    "t3_1sptj9j",
+    "t3_1sptjc1",
+    "t3_1sptjef",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -493,53 +499,26 @@
     "t3_1sp8jmh",
     "t3_1sp8lf7",
     "t3_1sp8mu5",
-    "t3_1sp9s59",
-    "t3_1sp9tex",
-    "t3_1spq7w1",
-    "t3_1spq7x4",
-    "t3_1spqa8j",
-    "t3_1spqcc4",
-    "t3_1spqd7u"
+    "t3_1sp9s59"
   ],
-  "last_run_utc": 1776604129,
-  "last_summary_utc": 1776520461,
-  "summary_buffer": [
-    {
-      "post": {
-        "author": "/u/devjacks",
-        "created_utc": 1776534397,
-        "id": "t3_1sp4abl",
-        "link_flair_text": "",
-        "permalink": "/r/jobs/comments/1sp4abl/would_you_pay_to_apply_to_jobs_if_it_meant_better/",
-        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Saw a linkedin post by a CEO mention this idea - lots of backlash, some interesting ideas came of it. Wondering what others think. </p> <p>Imagine these two things working in tandem: </p> <p><strong>From the candidate side</strong> - you pay a deposit to apply to a job. Something like 0.01% of the lower end of the salary range. By making a payment it adds friction. More friction means less AI slop recruiters have to deal with. You get your deposit back if you&#39;re ghosted / rejected. </p> <p><strong>From the employer side</strong> - you pay for signal. The longer your posting is up the more you pay. The more candidates apply, the more you pay. The reason you pay is the access you get to that signal. People putting a deposit down to apply is meaningful signal that they&#39;ve read the job description and are actually interested in the company. </p> <p>What are your thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/devjacks\"> /u/devjacks </a> <br/> <span><a href=\"https://www.reddit.com/r/jobs/comments/1sp4abl/would_you_pay_to_apply_to_jobs_if_it_meant_better/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/jobs/comments/1sp4abl/would_you_pay_to_apply_to_jobs_if_it_meant_better/\">[comments]</a></span>",
-        "subreddit_name_prefixed": "r/jobs",
-        "title": "Would you pay to apply to jobs if it meant better outcomes?"
-      },
-      "reason": "matched required groups: opportunity: job; target role: recruiter"
-    },
-    {
-      "post": {
-        "author": "/u/RivenCalder",
-        "created_utc": 1776555517,
-        "id": "t3_1spd0it",
-        "link_flair_text": "",
-        "permalink": "/r/copywriting/comments/1spd0it/where_are_people_actually_finding_writing_jobs/",
-        "selftext": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RivenCalder\"> /u/RivenCalder </a> <br/> <span><a href=\"/r/writing/comments/1spcxxw/where_are_people_actually_finding_writing_jobs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/copywriting/comments/1spd0it/where_are_people_actually_finding_writing_jobs/\">[comments]</a></span>",
-        "subreddit_name_prefixed": "r/copywriting",
-        "title": "Where are people actually finding writing jobs right now?"
-      },
-      "reason": "matched required groups: opportunity: job; target role: copywriting"
-    }
-  ],
+  "last_run_utc": 1776606762,
+  "last_summary_utc": 1776606762,
+  "summary_buffer": [],
   "summary_seen_post_ids": [
-    "t3_1sps7dr",
-    "t3_1sps8hk",
-    "t3_1spsanr",
-    "t3_1spsc10",
-    "t3_1spsffj",
-    "t3_1spsg0k",
-    "t3_1spshck",
-    "t3_1spsir1",
+    "t3_1spt432",
+    "t3_1spt9ue",
+    "t3_1sptbu1",
+    "t3_1sptecn",
+    "t3_1sptfp4",
+    "t3_1sptfsm",
+    "t3_1sptgqp",
+    "t3_1spthi9",
+    "t3_1spti0r",
+    "t3_1spti3c",
+    "t3_1sptij3",
+    "t3_1sptj9j",
+    "t3_1sptjc1",
+    "t3_1sptjef",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1025,12 +1004,6 @@
     "t3_1sp8jmh",
     "t3_1sp8lf7",
     "t3_1sp8mu5",
-    "t3_1sp9s59",
-    "t3_1sp9tex",
-    "t3_1spq7w1",
-    "t3_1spq7x4",
-    "t3_1spqa8j",
-    "t3_1spqcc4",
-    "t3_1spqd7u"
+    "t3_1sp9s59"
   ]
 }
