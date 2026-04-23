@@ -1,5 +1,5 @@
 {
-  "last_run_utc": 1776941231,
+  "last_run_utc": 1776946141,
   "seen_ids": [
     "ashby:deel:0043b9b8-54ed-4fc6-a3d1-faf550de3b5e",
     "ashby:deel:02b1b917-a70d-49e1-a6eb-bcafb5161ed4",
@@ -2210,6 +2210,7 @@
     "greenhouse:sumup:8482958002",
     "greenhouse:sumup:8482959002",
     "greenhouse:sumup:8482964002",
+    "greenhouse:sumup:8482965002",
     "greenhouse:sumup:8482970002",
     "greenhouse:sumup:8483204002",
     "greenhouse:sumup:8483620002",
@@ -2307,6 +2308,8 @@
     "greenhouse:sumup:8518822002",
     "greenhouse:sumup:8518827002",
     "greenhouse:sumup:8518838002",
+    "greenhouse:sumup:8520376002",
+    "greenhouse:sumup:8520406002",
     "greenhouse:webflow:6124408",
     "greenhouse:webflow:6709861",
     "greenhouse:webflow:6812928",
