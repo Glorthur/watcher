@@ -1,12 +1,17 @@
 {
   "instant_seen_post_ids": [
-    "t3_1sv85mx",
-    "t3_1sv8959",
-    "t3_1sv89no",
-    "t3_1sv89q5",
-    "t3_1sv89wd",
-    "t3_1sv8cxr",
-    "t3_1sv8fce",
+    "t3_1sv8yc3",
+    "t3_1sv8ypd",
+    "t3_1sv90a9",
+    "t3_1sv929c",
+    "t3_1sv940w",
+    "t3_1sv94bh",
+    "t3_1sv94mt",
+    "t3_1sv94sa",
+    "t3_1sv9518",
+    "t3_1sv95vf",
+    "t3_1sv96wu",
+    "t3_1sv97f8",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -494,14 +499,9 @@
     "t3_1surocs",
     "t3_1suu5mf",
     "t3_1suu6pf",
-    "t3_1suu6w6",
-    "t3_1suu7gz",
-    "t3_1suu9b2",
-    "t3_1suvmxf",
-    "t3_1suvqa7",
-    "t3_1suzlqp"
+    "t3_1suu6w6"
   ],
-  "last_run_utc": 1777112694,
+  "last_run_utc": 1777115548,
   "last_summary_utc": 1777040863,
   "summary_buffer": [
     {
@@ -516,16 +516,34 @@
         "title": "Abusive ex called my job.. [MN]"
       },
       "reason": "matched required groups: opportunity: job; target role: hr business partner"
+    },
+    {
+      "post": {
+        "author": "/u/curious_beluga_7",
+        "created_utc": 1777114713,
+        "id": "t3_1sv929c",
+        "link_flair_text": "",
+        "permalink": "/r/jobs/comments/1sv929c/nontechhrops_folks_what_actually_landed_you_a_job/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Coming from a non-technical background in HR/Operations/Talent/Onboarding, and currently job searching. </p> <p>If you\u2019re also from a non-tech field, what job search strategies actually worked for you or someone you know in the last 12 months? </p> <p>Was it networking, referrals, LinkedIn outreach, niche job boards, recruiters, portfolio projects, upskilling, or something else?</p> <p>Drop your success stories below so others in the same boat can try them too. Thank you \ud83d\ude4f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/curious_beluga_7\"> /u/curious_beluga_7 </a> <br/> <span><a href=\"https://www.reddit.com/r/jobs/comments/1sv929c/nontechhrops_folks_what_actually_landed_you_a_job/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/jobs/comments/1sv929c/nontechhrops_folks_what_actually_landed_you_a_job/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/jobs",
+        "title": "Non-Tech/HR/Ops folks: What actually landed you a job?"
+      },
+      "reason": "matched required groups: opportunity: job; target role: recruiter"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1sv85mx",
-    "t3_1sv8959",
-    "t3_1sv89no",
-    "t3_1sv89q5",
-    "t3_1sv89wd",
-    "t3_1sv8cxr",
-    "t3_1sv8fce",
+    "t3_1sv8yc3",
+    "t3_1sv8ypd",
+    "t3_1sv90a9",
+    "t3_1sv929c",
+    "t3_1sv940w",
+    "t3_1sv94bh",
+    "t3_1sv94mt",
+    "t3_1sv94sa",
+    "t3_1sv9518",
+    "t3_1sv95vf",
+    "t3_1sv96wu",
+    "t3_1sv97f8",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1013,11 +1031,6 @@
     "t3_1surocs",
     "t3_1suu5mf",
     "t3_1suu6pf",
-    "t3_1suu6w6",
-    "t3_1suu7gz",
-    "t3_1suu9b2",
-    "t3_1suvmxf",
-    "t3_1suvqa7",
-    "t3_1suzlqp"
+    "t3_1suu6w6"
   ]
 }
