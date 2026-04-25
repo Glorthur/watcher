@@ -1,18 +1,17 @@
 {
   "instant_seen_post_ids": [
-    "t3_1svc4se",
-    "t3_1svc6ak",
-    "t3_1svc80z",
-    "t3_1svcfme",
-    "t3_1svcgcl",
-    "t3_1svcgot",
-    "t3_1svchg6",
-    "t3_1svci8m",
-    "t3_1svci90",
-    "t3_1svcif5",
     "t3_1svcl60",
     "t3_1svclab",
     "t3_1svclaq",
+    "t3_1svcms9",
+    "t3_1svcmxo",
+    "t3_1svcn1x",
+    "t3_1svcoe6",
+    "t3_1svcpoj",
+    "t3_1svcr03",
+    "t3_1svcubj",
+    "t3_1svcv7e",
+    "t3_1svcw3e",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -499,52 +498,25 @@
     "t3_1suroc0",
     "t3_1surocs",
     "t3_1suu5mf",
-    "t3_1suu6pf"
+    "t3_1suu6pf",
+    "t3_1svc4se"
   ],
-  "last_run_utc": 1777124644,
-  "last_summary_utc": 1777040863,
-  "summary_buffer": [
-    {
-      "post": {
-        "author": "/u/atopeia",
-        "created_utc": 1777064103,
-        "id": "t3_1surxz2",
-        "link_flair_text": "",
-        "permalink": "/r/AskHR/comments/1surxz2/abusive_ex_called_my_job_mn/",
-        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Been dealing with an ongoing situation I\u2019m handling legally but they did call. Had a meeting with HR the director to be clear. They said that the person made personal allegations against me and they wanted to let me know but they weren\u2019t going to investigate nor report it to hr business partner. I felt relieved. They asked me if there was any workplace safety concerns I said no. I also said the person lives out of state and I\u2019m handling it through the appropriate channels. </p> <p>I guess I\u2019m just worried what if the ex calls again? I\u2019m handling this appropriately but I\u2019m so embarrassed and I can\u2019t even imagine what twisted messed up things they said. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/atopeia\"> /u/atopeia </a> <br/> <span><a href=\"https://www.reddit.com/r/AskHR/comments/1surxz2/abusive_ex_called_my_job_mn/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/AskHR/comments/1surxz2/abusive_ex_called_my_job_mn/\">[comments]</a></span>",
-        "subreddit_name_prefixed": "r/AskHR",
-        "title": "Abusive ex called my job.. [MN]"
-      },
-      "reason": "matched required groups: opportunity: job; target role: hr business partner"
-    },
-    {
-      "post": {
-        "author": "/u/curious_beluga_7",
-        "created_utc": 1777114713,
-        "id": "t3_1sv929c",
-        "link_flair_text": "",
-        "permalink": "/r/jobs/comments/1sv929c/nontechhrops_folks_what_actually_landed_you_a_job/",
-        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Coming from a non-technical background in HR/Operations/Talent/Onboarding, and currently job searching. </p> <p>If you\u2019re also from a non-tech field, what job search strategies actually worked for you or someone you know in the last 12 months? </p> <p>Was it networking, referrals, LinkedIn outreach, niche job boards, recruiters, portfolio projects, upskilling, or something else?</p> <p>Drop your success stories below so others in the same boat can try them too. Thank you \ud83d\ude4f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/curious_beluga_7\"> /u/curious_beluga_7 </a> <br/> <span><a href=\"https://www.reddit.com/r/jobs/comments/1sv929c/nontechhrops_folks_what_actually_landed_you_a_job/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/jobs/comments/1sv929c/nontechhrops_folks_what_actually_landed_you_a_job/\">[comments]</a></span>",
-        "subreddit_name_prefixed": "r/jobs",
-        "title": "Non-Tech/HR/Ops folks: What actually landed you a job?"
-      },
-      "reason": "matched required groups: opportunity: job; target role: recruiter"
-    }
-  ],
+  "last_run_utc": 1777125408,
+  "last_summary_utc": 1777125408,
+  "summary_buffer": [],
   "summary_seen_post_ids": [
-    "t3_1svc4se",
-    "t3_1svc6ak",
-    "t3_1svc80z",
-    "t3_1svcfme",
-    "t3_1svcgcl",
-    "t3_1svcgot",
-    "t3_1svchg6",
-    "t3_1svci8m",
-    "t3_1svci90",
-    "t3_1svcif5",
     "t3_1svcl60",
     "t3_1svclab",
     "t3_1svclaq",
+    "t3_1svcms9",
+    "t3_1svcmxo",
+    "t3_1svcn1x",
+    "t3_1svcoe6",
+    "t3_1svcpoj",
+    "t3_1svcr03",
+    "t3_1svcubj",
+    "t3_1svcv7e",
+    "t3_1svcw3e",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1031,6 +1003,7 @@
     "t3_1suroc0",
     "t3_1surocs",
     "t3_1suu5mf",
-    "t3_1suu6pf"
+    "t3_1suu6pf",
+    "t3_1svc4se"
   ]
 }
