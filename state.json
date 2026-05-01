@@ -1,15 +1,20 @@
 {
   "instant_seen_post_ids": [
-    "t3_1t0r8u0",
-    "t3_1t0rcd4",
-    "t3_1t0rdi5",
-    "t3_1t0rf0f",
-    "t3_1t0rfj9",
-    "t3_1t0rgwz",
-    "t3_1t0rhma",
-    "t3_1t0rhy8",
-    "t3_1t0rl0u",
-    "t3_1t0rltc",
+    "t3_1t0tr6z",
+    "t3_1t0trp2",
+    "t3_1t0tti7",
+    "t3_1t0tujk",
+    "t3_1t0tvr6",
+    "t3_1t0txbb",
+    "t3_1t0u05m",
+    "t3_1t0u0mf",
+    "t3_1t0u11z",
+    "t3_1t0u1j5",
+    "t3_1t0u1qd",
+    "t3_1t0u238",
+    "t3_1t0u3qj",
+    "t3_1t0u6g2",
+    "t3_1t0u7ok",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -494,14 +499,9 @@
     "t3_1t0ma5z",
     "t3_1t0mao1",
     "t3_1t0mbgh",
-    "t3_1t0pxxx",
-    "t3_1t0pybk",
-    "t3_1t0pylf",
-    "t3_1t0pzdq",
-    "t3_1t0pziv",
-    "t3_1t0pzoo"
+    "t3_1t0pxxx"
   ],
-  "last_run_utc": 1777637535,
+  "last_run_utc": 1777644001,
   "last_summary_utc": 1777474888,
   "summary_buffer": [
     {
@@ -529,19 +529,37 @@
         "title": "Leaving job after a month?"
       },
       "reason": "matched required groups: opportunity: job; target role: recruiter"
+    },
+    {
+      "post": {
+        "author": "/u/RebelJustForKickss",
+        "created_utc": 1777643846,
+        "id": "t3_1t0u6g2",
+        "link_flair_text": "",
+        "permalink": "/r/forhire/comments/1t0u6g2/for_hire_30_ill_make_you_a_list_of_15_companies/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>I work in HR and have access to recruiter-level tools (like LinkedIn Recruiter) that most job seekers don\u2019t.</p> <p>with these tools you can often spot when a company is about to have an opening before they ever post the job. I can see who in a company is \u201clooking for work\u201d and how urgently they\u2019re looking. </p> <p>When people mark that they\u2019re \u201copen for work\u201d and they\u2019re \u201cactively looking\u201d, its because they want a recruiter to contact them about new opportunities, and it usually means there\u2019s going to be an open role in that company soon.</p> <p>With advanced notice it gives you the opportunity to:</p> <p>- Reach out to hiring managers early</p> <p>- Start conversations before competition floods in</p> <p>- Potentially position yourself before the job even goes live</p> <p>I will put together a custom lists of 15 companies that are likely to be hiring soon based on these signals.</p> <p>Each list is tailored to:</p> <p>- Your job title</p> <p>- Your target location</p> <p>And includes a short note on why each company made the list.</p> <p>I\u2019m charging $30 for this (mostly to test if people even want it).</p> <p>If you\u2019re interested, DM me:</p> <p>- The role you\u2019re targeting</p> <p>- The location</p> <p>And I\u2019ll let you know if I can build a list for you.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RebelJustForKickss\"> /u/RebelJustForKickss </a> <br/> <span><a href=\"https://www.reddit.com/r/forhire/comments/1t0u6g2/for_hire_30_ill_make_you_a_list_of_15_companies/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/forhire/comments/1t0u6g2/for_hire_30_ill_make_you_a_list_of_15_companies/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/forhire",
+        "title": "[For Hire] $30 I\u2019ll make you a list of 15 companies who are most likely hiring in the next 1-3 months"
+      },
+      "reason": "matched required groups: opportunity: hiring, for hire; target role: recruiter"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1t0r8u0",
-    "t3_1t0rcd4",
-    "t3_1t0rdi5",
-    "t3_1t0rf0f",
-    "t3_1t0rfj9",
-    "t3_1t0rgwz",
-    "t3_1t0rhma",
-    "t3_1t0rhy8",
-    "t3_1t0rl0u",
-    "t3_1t0rltc",
+    "t3_1t0tr6z",
+    "t3_1t0trp2",
+    "t3_1t0tti7",
+    "t3_1t0tujk",
+    "t3_1t0tvr6",
+    "t3_1t0txbb",
+    "t3_1t0u05m",
+    "t3_1t0u0mf",
+    "t3_1t0u11z",
+    "t3_1t0u1j5",
+    "t3_1t0u1qd",
+    "t3_1t0u238",
+    "t3_1t0u3qj",
+    "t3_1t0u6g2",
+    "t3_1t0u7ok",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1026,11 +1044,6 @@
     "t3_1t0ma5z",
     "t3_1t0mao1",
     "t3_1t0mbgh",
-    "t3_1t0pxxx",
-    "t3_1t0pybk",
-    "t3_1t0pylf",
-    "t3_1t0pzdq",
-    "t3_1t0pziv",
-    "t3_1t0pzoo"
+    "t3_1t0pxxx"
   ]
 }
