@@ -1,15 +1,19 @@
 {
   "instant_seen_post_ids": [
-    "t3_1t1y4z6",
-    "t3_1t1y9n1",
-    "t3_1t1ya21",
-    "t3_1t1yac6",
-    "t3_1t1yao6",
-    "t3_1t1yiag",
-    "t3_1t1yikv",
-    "t3_1t1ykhn",
-    "t3_1t1ylnv",
-    "t3_1t1ym9j",
+    "t3_1t1zqhu",
+    "t3_1t1zr92",
+    "t3_1t1zrs0",
+    "t3_1t1zu5u",
+    "t3_1t1zw8a",
+    "t3_1t1zwuf",
+    "t3_1t1zx12",
+    "t3_1t1zxr0",
+    "t3_1t1zxx4",
+    "t3_1t1zy1h",
+    "t3_1t201cw",
+    "t3_1t201ty",
+    "t3_1t205ug",
+    "t3_1t206fr",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -495,13 +499,9 @@
     "t3_1t1t31i",
     "t3_1t1t3c9",
     "t3_1t1t6kp",
-    "t3_1t1unyp",
-    "t3_1t1uq9s",
-    "t3_1t1uqt5",
-    "t3_1t1us1r",
-    "t3_1t1w5ca"
+    "t3_1t1unyp"
   ],
-  "last_run_utc": 1777748686,
+  "last_run_utc": 1777752290,
   "last_summary_utc": 1777730649,
   "summary_buffer": [
     {
@@ -529,19 +529,49 @@
         "title": "[FOR HIRE] Full-Stack Developer | AI Apps, CRMs & Automation Systems"
       },
       "reason": "matched required groups: opportunity: for hire; target role: crm"
+    },
+    {
+      "post": {
+        "author": "/u/AcanthisittaNo6174",
+        "created_utc": 1777751580,
+        "id": "t3_1t1zxr0",
+        "link_flair_text": "",
+        "permalink": "/r/RemoteJobs/comments/1t1zxr0/the_cost_of_getting_sales_hiring_wrong_is_way/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Been thinking abt this a lot lately. </p> <p>A few stats that should make every early-stage team pause:<br/> <strong>3\u20135x difference in output</strong><br/> Top sales reps generate 3\u20135x more revenue than average hires.<br/> <strong>$150K\u2013$500K+ per bad hire</strong><br/> One wrong sales hire isn\u2019t just salary it\u2019s lost pipeline, missed deals, and wasted months of momentum.<br/> <strong>70\u201380% of early revenue concentration</strong><br/> At most startups, the first 5\u201310 sales hires drive the majority of early revenue.</p> <p>When you\u2019re early, one mis-hire doesn\u2019t just slow you down and it can completely distort your growth trajectory.<br/> Getting the first few sellers right matters more than almost anything else in GTM.</p> <p>We fix this </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AcanthisittaNo6174\"> /u/AcanthisittaNo6174 </a> <br/> <span><a href=\"https://www.reddit.com/r/RemoteJobs/comments/1t1zxr0/the_cost_of_getting_sales_hiring_wrong_is_way/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/RemoteJobs/comments/1t1zxr0/the_cost_of_getting_sales_hiring_wrong_is_way/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/remotejobs",
+        "title": "The cost of getting sales hiring wrong is way higher than most founders and HR recruiters think. Agree ?"
+      },
+      "reason": "matched required groups: opportunity: hiring; target role: recruiter"
+    },
+    {
+      "post": {
+        "author": "/u/AcanthisittaNo6174",
+        "created_utc": 1777751592,
+        "id": "t3_1t1zxx4",
+        "link_flair_text": "",
+        "permalink": "/r/careerguidance/comments/1t1zxx4/the_cost_of_getting_sales_hiring_wrong_is_way/",
+        "selftext": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AcanthisittaNo6174\"> /u/AcanthisittaNo6174 </a> <br/> <span><a href=\"/r/RemoteJobs/comments/1t1zxr0/the_cost_of_getting_sales_hiring_wrong_is_way/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/careerguidance/comments/1t1zxx4/the_cost_of_getting_sales_hiring_wrong_is_way/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/careerguidance",
+        "title": "The cost of getting sales hiring wrong is way higher than most founders and HR recruiters think. Agree ?"
+      },
+      "reason": "matched required groups: opportunity: hiring; target role: recruiter"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1t1y4z6",
-    "t3_1t1y9n1",
-    "t3_1t1ya21",
-    "t3_1t1yac6",
-    "t3_1t1yao6",
-    "t3_1t1yiag",
-    "t3_1t1yikv",
-    "t3_1t1ykhn",
-    "t3_1t1ylnv",
-    "t3_1t1ym9j",
+    "t3_1t1zqhu",
+    "t3_1t1zr92",
+    "t3_1t1zrs0",
+    "t3_1t1zu5u",
+    "t3_1t1zw8a",
+    "t3_1t1zwuf",
+    "t3_1t1zx12",
+    "t3_1t1zxr0",
+    "t3_1t1zxx4",
+    "t3_1t1zy1h",
+    "t3_1t201cw",
+    "t3_1t201ty",
+    "t3_1t205ug",
+    "t3_1t206fr",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1027,10 +1057,6 @@
     "t3_1t1t31i",
     "t3_1t1t3c9",
     "t3_1t1t6kp",
-    "t3_1t1unyp",
-    "t3_1t1uq9s",
-    "t3_1t1uqt5",
-    "t3_1t1us1r",
-    "t3_1t1w5ca"
+    "t3_1t1unyp"
   ]
 }
