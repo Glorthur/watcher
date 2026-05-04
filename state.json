@@ -1,13 +1,14 @@
 {
   "instant_seen_post_ids": [
-    "t3_1t360fm",
-    "t3_1t360l1",
-    "t3_1t360ow",
-    "t3_1t360wh",
-    "t3_1t364e8",
-    "t3_1t365oe",
-    "t3_1t366dr",
-    "t3_1t36b71",
+    "t3_1t39jpv",
+    "t3_1t39mih",
+    "t3_1t39mk0",
+    "t3_1t39mne",
+    "t3_1t39qrk",
+    "t3_1t39rbp",
+    "t3_1t39rjp",
+    "t3_1t39s2q",
+    "t3_1t39sd9",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -498,10 +499,9 @@
     "t3_1t2znyq",
     "t3_1t2zo8x",
     "t3_1t2zoh1",
-    "t3_1t312wg",
-    "t3_1t31475"
+    "t3_1t312wg"
   ],
-  "last_run_utc": 1777865589,
+  "last_run_utc": 1777876907,
   "last_summary_utc": 1777817113,
   "summary_buffer": [
     {
@@ -516,17 +516,31 @@
         "title": "Is there anyways I can earn extra money in recruitment apart from my daily job?"
       },
       "reason": "matched required groups: opportunity: job; target role: recruitment"
+    },
+    {
+      "post": {
+        "author": "/u/MixNo1807",
+        "created_utc": 1777876093,
+        "id": "t3_1t39mne",
+        "link_flair_text": "",
+        "permalink": "/r/SalesforceCareers/comments/1t39mne/hiring_salesperson_cold_outreach/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone \u2014 I\u2019m looking for a solid salesperson to work with.</p> <p>I run an AI automation agency, and the backend is already built (systems, fulfillment, offer, niche). This isn\u2019t something where you have to figure everything out from scratch \u2014 you\u2019d be stepping into something that\u2019s ready to sell.</p> <p>What I\u2019m looking for:</p> <p>- Someone who can find their own leads (outbound, prospecting, etc.)</p> <p>- Someone comfortable getting on calls and guiding conversations</p> <p>- Someone who can handle objections and move deals forward</p> <p>- Someone who\u2019s motivated by performance and wants to earn</p> <p>I am also looking for:</p> <p>- Appointment Setters, who are not as independent or good at sales, but good at finding leads. As long as you can provide us leads that are relevant to us, we will provide a base pay for each lead you provide that we close and convert to paying. </p> <p>(Only For People doing both):</p> <p>This is a full-cycle role: you\u2019ll be responsible for both sourcing leads and closing them.</p> <p>I can also potentially provide a scraper system to help you source leads faster, but you should still be capable of generating your own pipeline.</p> <p>What you\u2019ll be selling:</p> <p>AI systems that help businesses capture, qualify, and convert leads automatically (think AI receptionists, follow-ups, etc.)</p> <p>Typical deal size:</p> <p>Around $5,000 for a 3-month engagement per client.</p> <p>Comp:</p> <p>- 20% commission on deals you close (Closer)</p> <p>-$150 Base for Setters for each lead provided that convert to paying plan. This scales infinitely. </p> <p>- Paid based on revenue collected (as the client pays)</p> <p>- Commission is negotiable depending on experience and performance</p> <p>There\u2019s no fixed salary, so this is best suited for someone confident in their ability to produce results.</p> <p>DM me the word &quot;COLD&quot; if interested - discord username is rithik.90</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MixNo1807\"> /u/MixNo1807 </a> <br/> <span><a href=\"https://www.reddit.com/r/SalesforceCareers/comments/1t39mne/hiring_salesperson_cold_outreach/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SalesforceCareers/comments/1t39mne/hiring_salesperson_cold_outreach/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/SalesforceCareers",
+        "title": "HIRING SALESPERSON / COLD OUTREACH"
+      },
+      "reason": "matched required groups: opportunity: hiring; target role: salesforce"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1t360fm",
-    "t3_1t360l1",
-    "t3_1t360ow",
-    "t3_1t360wh",
-    "t3_1t364e8",
-    "t3_1t365oe",
-    "t3_1t366dr",
-    "t3_1t36b71",
+    "t3_1t39jpv",
+    "t3_1t39mih",
+    "t3_1t39mk0",
+    "t3_1t39mne",
+    "t3_1t39qrk",
+    "t3_1t39rbp",
+    "t3_1t39rjp",
+    "t3_1t39s2q",
+    "t3_1t39sd9",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1017,7 +1031,6 @@
     "t3_1t2znyq",
     "t3_1t2zo8x",
     "t3_1t2zoh1",
-    "t3_1t312wg",
-    "t3_1t31475"
+    "t3_1t312wg"
   ]
 }
