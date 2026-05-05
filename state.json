@@ -1,19 +1,12 @@
 {
   "instant_seen_post_ids": [
-    "t3_1t4bi1d",
-    "t3_1t4bi20",
-    "t3_1t4bie1",
-    "t3_1t4bje8",
-    "t3_1t4bjj6",
-    "t3_1t4blv1",
-    "t3_1t4bnk1",
-    "t3_1t4bo76",
-    "t3_1t4boah",
-    "t3_1t4bqo3",
-    "t3_1t4bqpe",
-    "t3_1t4br9n",
-    "t3_1t4bs1l",
-    "t3_1t4bt47",
+    "t3_1t4d2bx",
+    "t3_1t4d6g3",
+    "t3_1t4dc1n",
+    "t3_1t4ddwu",
+    "t3_1t4de6a",
+    "t3_1t4deor",
+    "t3_1t4dg4h",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -499,9 +492,16 @@
     "t3_1t494oh",
     "t3_1t496t7",
     "t3_1t497tp",
-    "t3_1t498ba"
+    "t3_1t498ba",
+    "t3_1t4bi1d",
+    "t3_1t4bi20",
+    "t3_1t4bie1",
+    "t3_1t4bje8",
+    "t3_1t4bjj6",
+    "t3_1t4blv1",
+    "t3_1t4bnk1"
   ],
-  "last_run_utc": 1777978150,
+  "last_run_utc": 1777982707,
   "last_summary_utc": 1777906932,
   "summary_buffer": [
     {
@@ -529,23 +529,29 @@
         "title": "[For Hire] Senior Technical Strategist & Systems Architect | AI Automation, WebAR/XR, and CRM Engineering"
       },
       "reason": "matched required groups: opportunity: for hire; target role: crm"
+    },
+    {
+      "post": {
+        "author": "/u/Ok-Description3667",
+        "created_utc": 1777982653,
+        "id": "t3_1t4dg4h",
+        "link_flair_text": "",
+        "permalink": "/r/hubspot/comments/1t4dg4h/built_a_tool_to_reconcile_hubspot_deals_against/",
+        "selftext": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Description3667\"> /u/Ok-Description3667 </a> <br/> <span><a href=\"/r/PPC/comments/1t4dela/built_a_tool_to_reconcile_hubspot_deals_against/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/hubspot/comments/1t4dg4h/built_a_tool_to_reconcile_hubspot_deals_against/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/hubspot",
+        "title": "Built a tool to reconcile HubSpot deals against Google Ads and Meta spend \u2014 looking for beta feedback"
+      },
+      "reason": "matched required groups: opportunity: looking for; target role: hubspot"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1t4bi1d",
-    "t3_1t4bi20",
-    "t3_1t4bie1",
-    "t3_1t4bje8",
-    "t3_1t4bjj6",
-    "t3_1t4blv1",
-    "t3_1t4bnk1",
-    "t3_1t4bo76",
-    "t3_1t4boah",
-    "t3_1t4bqo3",
-    "t3_1t4bqpe",
-    "t3_1t4br9n",
-    "t3_1t4bs1l",
-    "t3_1t4bt47",
+    "t3_1t4d2bx",
+    "t3_1t4d6g3",
+    "t3_1t4dc1n",
+    "t3_1t4ddwu",
+    "t3_1t4de6a",
+    "t3_1t4deor",
+    "t3_1t4dg4h",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1031,6 +1037,13 @@
     "t3_1t494oh",
     "t3_1t496t7",
     "t3_1t497tp",
-    "t3_1t498ba"
+    "t3_1t498ba",
+    "t3_1t4bi1d",
+    "t3_1t4bi20",
+    "t3_1t4bie1",
+    "t3_1t4bje8",
+    "t3_1t4bjj6",
+    "t3_1t4blv1",
+    "t3_1t4bnk1"
   ]
 }
