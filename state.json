@@ -1,16 +1,17 @@
 {
   "instant_seen_post_ids": [
-    "t3_1t59n9v",
-    "t3_1t59po7",
-    "t3_1t59q4v",
-    "t3_1t59qon",
-    "t3_1t59t1o",
-    "t3_1t59uey",
-    "t3_1t59ut1",
-    "t3_1t59vf2",
-    "t3_1t59way",
-    "t3_1t59x4b",
-    "t3_1t5a05y",
+    "t3_1t5c2yo",
+    "t3_1t5c5by",
+    "t3_1t5c5ek",
+    "t3_1t5c6iu",
+    "t3_1t5c7aj",
+    "t3_1t5camh",
+    "t3_1t5cgfp",
+    "t3_1t5chq3",
+    "t3_1t5ci0e",
+    "t3_1t5ciro",
+    "t3_1t5cjdw",
+    "t3_1t5ck7a",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -498,10 +499,9 @@
     "t3_1t4w5da",
     "t3_1t4w5g6",
     "t3_1t4w6tr",
-    "t3_1t4w7vj",
-    "t3_1t4w837"
+    "t3_1t4w7vj"
   ],
-  "last_run_utc": 1778066747,
+  "last_run_utc": 1778073300,
   "last_summary_utc": 1777906932,
   "summary_buffer": [
     {
@@ -542,20 +542,34 @@
         "title": "Built a tool to reconcile HubSpot deals against Google Ads and Meta spend \u2014 looking for beta feedback"
       },
       "reason": "matched required groups: opportunity: looking for; target role: hubspot"
+    },
+    {
+      "post": {
+        "author": "/u/xPumpkin25x",
+        "created_utc": 1778072274,
+        "id": "t3_1t5c5by",
+        "link_flair_text": "",
+        "permalink": "/r/jobs/comments/1t5c5by/do_recruiters_quietly_pull_away_after_you_decline/",
+        "selftext": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xPumpkin25x\"> /u/xPumpkin25x </a> <br/> <span><a href=\"/r/recruitinghell/comments/1t5c4re/do_recruiters_quietly_pull_away_after_you_decline/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/jobs/comments/1t5c5by/do_recruiters_quietly_pull_away_after_you_decline/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/jobs",
+        "title": "Do Recruiters Quietly Pull Away After You Decline Roles or Speak Up About Hiring Frustrations?"
+      },
+      "reason": "matched required groups: opportunity: hiring; target role: recruiter"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1t59n9v",
-    "t3_1t59po7",
-    "t3_1t59q4v",
-    "t3_1t59qon",
-    "t3_1t59t1o",
-    "t3_1t59uey",
-    "t3_1t59ut1",
-    "t3_1t59vf2",
-    "t3_1t59way",
-    "t3_1t59x4b",
-    "t3_1t5a05y",
+    "t3_1t5c2yo",
+    "t3_1t5c5by",
+    "t3_1t5c5ek",
+    "t3_1t5c6iu",
+    "t3_1t5c7aj",
+    "t3_1t5camh",
+    "t3_1t5cgfp",
+    "t3_1t5chq3",
+    "t3_1t5ci0e",
+    "t3_1t5ciro",
+    "t3_1t5cjdw",
+    "t3_1t5ck7a",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1043,7 +1057,6 @@
     "t3_1t4w5da",
     "t3_1t4w5g6",
     "t3_1t4w6tr",
-    "t3_1t4w7vj",
-    "t3_1t4w837"
+    "t3_1t4w7vj"
   ]
 }
