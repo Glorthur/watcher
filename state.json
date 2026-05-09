@@ -1,13 +1,19 @@
 {
   "instant_seen_post_ids": [
-    "t3_1t8o48n",
-    "t3_1t8o4e4",
-    "t3_1t8o4t0",
-    "t3_1t8o57v",
-    "t3_1t8o8of",
-    "t3_1t8ogh9",
-    "t3_1t8oiu5",
-    "t3_1t8ok97",
+    "t3_1t8pxrl",
+    "t3_1t8pyks",
+    "t3_1t8q1ig",
+    "t3_1t8q321",
+    "t3_1t8q4bs",
+    "t3_1t8q5kg",
+    "t3_1t8q5xd",
+    "t3_1t8q7mx",
+    "t3_1t8q8ja",
+    "t3_1t8q8vh",
+    "t3_1t8q8yt",
+    "t3_1t8q9jy",
+    "t3_1t8q9yi",
+    "t3_1t8qdau",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -493,15 +499,9 @@
     "t3_1t85cv1",
     "t3_1t85dmr",
     "t3_1t85dp4",
-    "t3_1t85e59",
-    "t3_1t8936e",
-    "t3_1t8hqb6",
-    "t3_1t8hsnh",
-    "t3_1t8i3lz",
-    "t3_1t8i43v",
-    "t3_1t8i6ds"
+    "t3_1t85e59"
   ],
-  "last_run_utc": 1778364477,
+  "last_run_utc": 1778369117,
   "last_summary_utc": 1778335964,
   "summary_buffer": [
     {
@@ -516,17 +516,36 @@
         "title": "[HIRING] Part-Time Meta Media Buyer | US Insurance Lead Gen | Remote | $15-25/hr"
       },
       "reason": "matched required groups: opportunity: hiring; target role: crm"
+    },
+    {
+      "post": {
+        "author": "/u/Fantastic_Lime_8",
+        "created_utc": 1778368482,
+        "id": "t3_1t8q5kg",
+        "link_flair_text": "",
+        "permalink": "/r/SalesforceCareers/comments/1t8q5kg/for_hire_pd1_salesforce_developer_35_yoe_us/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Hello! My name is Ivana.<br/> <a href=\"https://www.linkedin.com/in/ivanakramarevsky/\">https://www.linkedin.com/in/ivanakramarevsky/</a></p> <p>I am Salesforce PD1 certified, and I have years of experience working on very large Salesforce projects with tools such as Copado, MuleSoft, Apex, LWCs, Github, APIs/Integrations, and so on.</p> <p>I have multiple references from various roles who can objectively share their experiences with my communication and problem solving abilities in a professional setting.</p> <p>I am open to full-time or part-time direct-hire or contract roles, but I prefer full-time roles.</p> <p>I am seeking any role involving the Salesforce ecosystem that I may be a good fit for, but all of my experience so far is as a developer.</p> <p>Please reach out to me through my LinkedIn for any roles I may be a fit for:<br/> <a href=\"https://www.linkedin.com/in/ivanakramarevsky/\">https://www.linkedin.com/in/ivanakramarevsky/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fantastic_Lime_8\"> /u/Fantastic_Lime_8 </a> <br/> <span><a href=\"https://www.reddit.com/r/SalesforceCareers/comments/1t8q5kg/for_hire_pd1_salesforce_developer_35_yoe_us/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SalesforceCareers/comments/1t8q5kg/for_hire_pd1_salesforce_developer_35_yoe_us/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/SalesforceCareers",
+        "title": "[FOR HIRE] PD1 Salesforce Developer | 3.5+ YOE | US Citizen | Remote or Minneapolis, MN | flexible on role (admin, qa, etc)"
+      },
+      "reason": "matched required groups: opportunity: for hire; target role: salesforce"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1t8o48n",
-    "t3_1t8o4e4",
-    "t3_1t8o4t0",
-    "t3_1t8o57v",
-    "t3_1t8o8of",
-    "t3_1t8ogh9",
-    "t3_1t8oiu5",
-    "t3_1t8ok97",
+    "t3_1t8pxrl",
+    "t3_1t8pyks",
+    "t3_1t8q1ig",
+    "t3_1t8q321",
+    "t3_1t8q4bs",
+    "t3_1t8q5kg",
+    "t3_1t8q5xd",
+    "t3_1t8q7mx",
+    "t3_1t8q8ja",
+    "t3_1t8q8vh",
+    "t3_1t8q8yt",
+    "t3_1t8q9jy",
+    "t3_1t8q9yi",
+    "t3_1t8qdau",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1012,12 +1031,6 @@
     "t3_1t85cv1",
     "t3_1t85dmr",
     "t3_1t85dp4",
-    "t3_1t85e59",
-    "t3_1t8936e",
-    "t3_1t8hqb6",
-    "t3_1t8hsnh",
-    "t3_1t8i3lz",
-    "t3_1t8i43v",
-    "t3_1t8i6ds"
+    "t3_1t85e59"
   ]
 }
