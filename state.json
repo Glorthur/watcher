@@ -1,19 +1,13 @@
 {
   "instant_seen_post_ids": [
-    "t3_1t8pxrl",
-    "t3_1t8pyks",
-    "t3_1t8q1ig",
-    "t3_1t8q321",
-    "t3_1t8q4bs",
-    "t3_1t8q5kg",
-    "t3_1t8q5xd",
-    "t3_1t8q7mx",
-    "t3_1t8q8ja",
-    "t3_1t8q8vh",
-    "t3_1t8q8yt",
-    "t3_1t8q9jy",
-    "t3_1t8q9yi",
-    "t3_1t8qdau",
+    "t3_1t8r0z3",
+    "t3_1t8r2ug",
+    "t3_1t8r412",
+    "t3_1t8r6ga",
+    "t3_1t8r7dt",
+    "t3_1t8raqf",
+    "t3_1t8reln",
+    "t3_1t8rfke",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -499,9 +493,15 @@
     "t3_1t85cv1",
     "t3_1t85dmr",
     "t3_1t85dp4",
-    "t3_1t85e59"
+    "t3_1t85e59",
+    "t3_1t8pxrl",
+    "t3_1t8pyks",
+    "t3_1t8q1ig",
+    "t3_1t8q321",
+    "t3_1t8q4bs",
+    "t3_1t8q5kg"
   ],
-  "last_run_utc": 1778369117,
+  "last_run_utc": 1778371950,
   "last_summary_utc": 1778335964,
   "summary_buffer": [
     {
@@ -529,23 +529,30 @@
         "title": "[FOR HIRE] PD1 Salesforce Developer | 3.5+ YOE | US Citizen | Remote or Minneapolis, MN | flexible on role (admin, qa, etc)"
       },
       "reason": "matched required groups: opportunity: for hire; target role: salesforce"
+    },
+    {
+      "post": {
+        "author": "/u/Stevio3000",
+        "created_utc": 1778371245,
+        "id": "t3_1t8r6ga",
+        "link_flair_text": "",
+        "permalink": "/r/humanresources/comments/1t8r6ga/seeking_feedback_only_i_have_built_a_platform_for/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Hey all, </p> <p>I\u2019m a tech Rrecruiter who has previously managed graduate programs in Australia, I have spent the last 14/15 months building a SaaS platform specifically for managing graduate programmes with a specific focus on rotations and program management. Not recruitment, not LMS, not a general HR system. Management of the programme itself including: cohorts, placements, matching, feedback, approvals. </p> <p>I\u2019m seeking feedback and insight from people who run programs or have decision making influence in how programs are run or what tooling is used. </p> <p>The reason I built it is pretty simple, Graduate Programs can be so much better if the people managing them have more time to spend time with support the grads when they need it! When I managed a program (2 cohorts of 75 grads across a 2 year program at a govt infrastructure organisation) I found 70-80% of my time was managing admin and spreadsheets, when I talked to other program managers in both govt and private I kept having the same conversation with people. The majority were using a combination of Excel, Outlook, and SharePoint to manage anywhere up to 250 graduate\u2019s rotating through multiple departments over 12 to 36 months. Every rotation change involved manual spreadsheet updates, email chains for manager approvals, and someone physically chasing feedback or updates.</p> <p>I thought there must be a better way and there has to be a tool out there. While searching and speaking to people I found that theres are a few like Grad Connection (SEEK) and Prosple for recruitment, and then some companies used recruitment modules in Success Factors and Workday etc to onboard. However there was no specific tool that really did what I envisioned. </p> <p>What the platform does right now:</p> <p>- Cohort and rotation period management with configurable schedules<br/> - Department capacity requests with approval workflows (optional)<br/> - Rotation opportunity board where managers post listings and graduates browse and apply or auto generated rotations based on match/opportunity.<br/> - AI-assisted matching that scores every graduate against every rotation based on skills, interests, grad type, and work style.<br/> - An \u201cAbout You\u201d profiling flow where graduates describe their interests, personality, and programme goals (not just their degree)<br/> - Automated pulse check surveys and end-of-rotation assessments on a configurable schedule with automatic reminders<br/> - Manager-to-manager feedback visibility so the next hosting manager can see how a graduate performed in previous rotations.<br/> - Onboarding checklists, notification system, and a structured dashboard for each role (admin, manager, graduate)</p> <p>It is live, it works, and I have my first pilot customer on it now (a private engineering company in Australia).</p> <p>What I am looking for:</p> <p>- If you run a graduate programme, does this list of features actually address your pain points or am I missing any serious areas of concern within programmes<br/> - What is the single biggest operational headache in your programme that no tool currently handles well?<br/> - Is there anything on this list that sounds good in theory but would not work in practice in your organisation?<br/> - For those in government or highly regulated industries, what compliance or data requirements would be dealbreakers?</p> <p>Happy for people to DM if they have more questions. </p> <p>TLDR: I\u2019ve built a tool for graduate program management and want to sense check the problems I\u2019m trying to solve and the value it could add.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Stevio3000\"> /u/Stevio3000 </a> <br/> <span><a href=\"https://www.reddit.com/r/humanresources/comments/1t8r6ga/seeking_feedback_only_i_have_built_a_platform_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/humanresources/comments/1t8r6ga/seeking_feedback_only_i_have_built_a_platform_for/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/humanresources",
+        "title": "*Seeking Feedback Only* I have built a platform for managing graduate programmes and would love honest feedback from anyone who runs or is involved in running one. [Australia]"
+      },
+      "reason": "matched required groups: opportunity: seeking; target role: recruiter, recruitment"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1t8pxrl",
-    "t3_1t8pyks",
-    "t3_1t8q1ig",
-    "t3_1t8q321",
-    "t3_1t8q4bs",
-    "t3_1t8q5kg",
-    "t3_1t8q5xd",
-    "t3_1t8q7mx",
-    "t3_1t8q8ja",
-    "t3_1t8q8vh",
-    "t3_1t8q8yt",
-    "t3_1t8q9jy",
-    "t3_1t8q9yi",
-    "t3_1t8qdau",
+    "t3_1t8r0z3",
+    "t3_1t8r2ug",
+    "t3_1t8r412",
+    "t3_1t8r6ga",
+    "t3_1t8r7dt",
+    "t3_1t8raqf",
+    "t3_1t8reln",
+    "t3_1t8rfke",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1031,6 +1038,12 @@
     "t3_1t85cv1",
     "t3_1t85dmr",
     "t3_1t85dp4",
-    "t3_1t85e59"
+    "t3_1t85e59",
+    "t3_1t8pxrl",
+    "t3_1t8pyks",
+    "t3_1t8q1ig",
+    "t3_1t8q321",
+    "t3_1t8q4bs",
+    "t3_1t8q5kg"
   ]
 }
