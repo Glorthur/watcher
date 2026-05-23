@@ -1,8 +1,15 @@
 {
   "instant_seen_post_ids": [
-    "t3_1tlhcdx",
-    "t3_1tlhchx",
-    "t3_1tlheeb",
+    "t3_1tlhkki",
+    "t3_1tlhlca",
+    "t3_1tlhn5c",
+    "t3_1tlhnjx",
+    "t3_1tlhp0q",
+    "t3_1tlhr87",
+    "t3_1tlhruz",
+    "t3_1tlhs9q",
+    "t3_1tlht5j",
+    "t3_1tlhvxg",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -492,49 +499,22 @@
     "t3_1tkvv5i",
     "t3_1tkxtus",
     "t3_1tl01ab",
-    "t3_1tl034m",
-    "t3_1tlbaeq",
-    "t3_1tlbahu",
-    "t3_1tlbbyi",
-    "t3_1tlcxdi",
-    "t3_1tlcyt2",
-    "t3_1tlea0i",
-    "t3_1tlecmg"
+    "t3_1tl034m"
   ],
-  "last_run_utc": 1779545368,
-  "last_summary_utc": 1779293970,
-  "summary_buffer": [
-    {
-      "post": {
-        "author": "/u/Omega-Mo",
-        "created_utc": 1779394367,
-        "id": "t3_1tjwgc2",
-        "link_flair_text": "",
-        "permalink": "/r/SalesforceCareers/comments/1tjwgc2/hiring_doortodoor_water_filtration_reps_high/",
-        "selftext": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SalesforceCareers/comments/1tjwgc2/hiring_doortodoor_water_filtration_reps_high/\"> <img src=\"https://preview.redd.it/y9lickfxsj2h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=339294cc01a90be70e6ad3263c08721e4994ae3a\" alt=\"Hiring Door-to-Door Water Filtration Reps \u2013 High Commission\" title=\"Hiring Door-to-Door Water Filtration Reps \u2013 High Commission\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hiring motivated door-to-door reps for our water safety program. Selling premium whole-house filtration systems with a proven high-converting script (EWG data + shock presentation).</p> <ul> <li>Top reps earning $8k\u2013$15k+/mo</li> <li>Weekly pay + bonuses</li> <li>Full training &amp; scripts provided</li> <li>Targeted neighborhoods + $0 down financing</li> </ul> <p>Great for experienced D2D (solar, roofing, pest, etc.) or hungry beginners. Reliable car + smartphone required.</p> <p>Serious applicants only \u2014 reply with:</p> <ol> <li>Name</li> <li>City</li> <li>Phone</li> <li>Sales experience</li> </ol> <p>Hiring immediately \ud83d\udcb0</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Omega-Mo\"> /u/Omega-Mo </a> <br/> <span><a href=\"https://i.redd.it/y9lickfxsj2h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SalesforceCareers/comments/1tjwgc2/hiring_doortodoor_water_filtration_reps_high/\">[comments]</a></span> </td></tr></table>",
-        "subreddit_name_prefixed": "r/SalesforceCareers",
-        "title": "Hiring Door-to-Door Water Filtration Reps \u2013 High Commission"
-      },
-      "reason": "matched required groups: opportunity: hiring; target role: salesforce"
-    },
-    {
-      "post": {
-        "author": "/u/Old_Ad_4216",
-        "created_utc": 1779400447,
-        "id": "t3_1tjz7rh",
-        "link_flair_text": "",
-        "permalink": "/r/hiring/comments/1tjz7rh/navigating_the_transition_from_crm_operations_to/",
-        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>PNW people in CRM, RevOps, Customer Success, Sales Ops, or hybrid SaaS roles:</p> <p>Curious where someone with my background translates best long term.</p> <p>Currently managing CRM hygiene, lead routing, pipeline accountability, appointment flow, and sales coordination in the luxury automotive space. Heavy focus on process, follow-up systems, rep accountability, and operational efficiency.</p> <p>I seem to sit in this weird middle ground between operations, customer success, enablement, and RevOps.</p> <p>Looking to connect with people in the PNW working hybrid roles around:<br/> \u2022 CRM Operations<br/> \u2022 Revenue Operations<br/> \u2022 Customer Success<br/> \u2022 Sales Enablement<br/> \u2022 SaaS onboarding/adoption<br/> \u2022 Pipeline management</p> <p>If you\u2019ve made a similar transition or know companies where this background fits well, send me a private message. Trying to network smarter and learn where this skillset is actually valued.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Old_Ad_4216\"> /u/Old_Ad_4216 </a> <br/> <span><a href=\"https://www.reddit.com/r/hiring/comments/1tjz7rh/navigating_the_transition_from_crm_operations_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/hiring/comments/1tjz7rh/navigating_the_transition_from_crm_operations_to/\">[comments]</a></span>",
-        "subreddit_name_prefixed": "r/hiring",
-        "title": "Navigating the Transition from CRM Operations to RevOps & Customer Success in the PNW [for hire]"
-      },
-      "reason": "matched required groups: opportunity: for hire; target role: crm, revops, revenue operations"
-    }
-  ],
+  "last_run_utc": 1779546300,
+  "last_summary_utc": 1779546300,
+  "summary_buffer": [],
   "summary_seen_post_ids": [
-    "t3_1tlhcdx",
-    "t3_1tlhchx",
-    "t3_1tlheeb",
+    "t3_1tlhkki",
+    "t3_1tlhlca",
+    "t3_1tlhn5c",
+    "t3_1tlhnjx",
+    "t3_1tlhp0q",
+    "t3_1tlhr87",
+    "t3_1tlhruz",
+    "t3_1tlhs9q",
+    "t3_1tlht5j",
+    "t3_1tlhvxg",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1024,13 +1004,6 @@
     "t3_1tkvv5i",
     "t3_1tkxtus",
     "t3_1tl01ab",
-    "t3_1tl034m",
-    "t3_1tlbaeq",
-    "t3_1tlbahu",
-    "t3_1tlbbyi",
-    "t3_1tlcxdi",
-    "t3_1tlcyt2",
-    "t3_1tlea0i",
-    "t3_1tlecmg"
+    "t3_1tl034m"
   ]
 }
