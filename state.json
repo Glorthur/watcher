@@ -1,19 +1,11 @@
 {
   "instant_seen_post_ids": [
-    "t3_1tn7qw2",
-    "t3_1tn7rir",
-    "t3_1tn7saa",
-    "t3_1tn7vni",
-    "t3_1tn7wmh",
-    "t3_1tn7y0p",
-    "t3_1tn7y2r",
-    "t3_1tn7yqf",
-    "t3_1tn7zmc",
-    "t3_1tn80r7",
-    "t3_1tn80tj",
-    "t3_1tn81nx",
-    "t3_1tn82z7",
-    "t3_1tn86yc",
+    "t3_1tncgtx",
+    "t3_1tnchnb",
+    "t3_1tncpt0",
+    "t3_1tncufd",
+    "t3_1tncv7x",
+    "t3_1tncvfo",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -499,53 +491,26 @@
     "t3_1tlq84y",
     "t3_1tmjv1q",
     "t3_1tmjx02",
-    "t3_1tmjz61"
+    "t3_1tmjz61",
+    "t3_1tn7qw2",
+    "t3_1tn7rir",
+    "t3_1tn7saa",
+    "t3_1tn7vni",
+    "t3_1tn7wmh",
+    "t3_1tn7y0p",
+    "t3_1tn7y2r",
+    "t3_1tn7yqf"
   ],
-  "last_run_utc": 1779713357,
-  "last_summary_utc": 1779546300,
-  "summary_buffer": [
-    {
-      "post": {
-        "author": "/u/Civil-Shift2642",
-        "created_utc": 1779652679,
-        "id": "t3_1tmmhhv",
-        "link_flair_text": "",
-        "permalink": "/r/forhire/comments/1tmmhhv/for_hire_custom_ai_agents_automations_developer/",
-        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/forhire\">r/forhire</a>,</p> <p>If you are running a business, startup, or e-commerce store, you are probably spending way too much time answering repetitive customer questions, managing data, or chasing leads.</p> <p>You don&#39;t need more payroll; you need smarter workflows. I build <strong>Custom Autonomous AI Agents</strong> tailored specifically to solve your business bottlenecks.</p> <h1>\u2699\ufe0f What my AI Agents can do for your business:</h1> <ul> <li><strong>24/7 Multi-lingual Support:</strong> Automate your customer service on WhatsApp, Discord, or your Website with human-like, precise responses based on your own business data.</li> <li><strong>Workflow &amp; CRM Automation:</strong> Seamlessly connect your emails, Google Sheets, CRM, and tools to automate lead generation, follow-ups, and sorting.</li> <li><strong>Data &amp; Analytics Tasks:</strong> Let AI analyze data, track metrics, and generate daily reports while you sleep.</li> <li>\ud83d\udee0\ufe0f Integrations &amp; Tech:</li> </ul> <p>I can integrate your AI agent with almost any platform you currently use (OpenAI API, LangChain, <a href=\"http://Make.com\">Make.com</a>, Zapier, n8n, WhatsApp Business API, etc.) to ensure it works flawlessly with your current setup.</p> <p>Send me a <strong>DM (Direct Message)</strong> or a chat request here on Reddit with a brief description of the task you want to automate, and let&#39;s get your business running on autopilot!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Civil-Shift2642\"> /u/Civil-Shift2642 </a> <br/> <span><a href=\"https://www.reddit.com/r/forhire/comments/1tmmhhv/for_hire_custom_ai_agents_automations_developer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/forhire/comments/1tmmhhv/for_hire_custom_ai_agents_automations_developer/\">[comments]</a></span>",
-        "subreddit_name_prefixed": "r/forhire",
-        "title": "[For Hire] Custom AI Agents & Automations Developer (or $25/hour)"
-      },
-      "reason": "matched required groups: opportunity: for hire; target role: crm"
-    },
-    {
-      "post": {
-        "author": "/u/Mochiba08",
-        "created_utc": 1779666773,
-        "id": "t3_1tmsaae",
-        "link_flair_text": "",
-        "permalink": "/r/AskHR/comments/1tmsaae/au_fixed_term_contracts_and_the_definition_of/",
-        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Context: I have been in a leave-cover fixed term role for almost 15 months (4 total fixed term contract extensions). That person has now resigned, and my workplace wants to keep me (yay!) but they want to restructure the role. But this may take some time to get approved, etc before they formally advertise. And therefore, I&#39;m assuming they&#39;ll have to offer me another fixed term contract. But I&#39;m nervous whether or not they can, now that it&#39;s no longer a leave-cover role.</p> <p>I&#39;ve checked the award I&#39;m under, and this seems to be the section/s that cover the situation (emphasis mine):</p> <p><em>11.3 The use of fixed-term employment must be limited to the employment of an employee engaged on work activity that comes within the description of one or more of the following circumstances:</em> </p> <p><em>(c) Replacement employee means an employee:</em> </p> <p><em>(ii) performing the duties of:</em> </p> <ul> <li><em>a vacant position for which the employer has made a definite decision to fill and has</em> <strong><em>commenced recruitment action;</em></strong></li> </ul> <p>My question - what counts as &quot;recruitment action&quot;? I can&#39;t find the definition of that anywhere.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mochiba08\"> /u/Mochiba08 </a> <br/> <span><a href=\"https://www.reddit.com/r/AskHR/comments/1tmsaae/au_fixed_term_contracts_and_the_definition_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/AskHR/comments/1tmsaae/au_fixed_term_contracts_and_the_definition_of/\">[comments]</a></span>",
-        "subreddit_name_prefixed": "r/AskHR",
-        "title": "[AU] Fixed term contracts and the definition of \"recruitment action\""
-      },
-      "reason": "matched required groups: opportunity: contract; target role: recruitment"
-    }
-  ],
+  "last_run_utc": 1779723871,
+  "last_summary_utc": 1779723871,
+  "summary_buffer": [],
   "summary_seen_post_ids": [
-    "t3_1tn7qw2",
-    "t3_1tn7rir",
-    "t3_1tn7saa",
-    "t3_1tn7vni",
-    "t3_1tn7wmh",
-    "t3_1tn7y0p",
-    "t3_1tn7y2r",
-    "t3_1tn7yqf",
-    "t3_1tn7zmc",
-    "t3_1tn80r7",
-    "t3_1tn80tj",
-    "t3_1tn81nx",
-    "t3_1tn82z7",
-    "t3_1tn86yc",
+    "t3_1tncgtx",
+    "t3_1tnchnb",
+    "t3_1tncpt0",
+    "t3_1tncufd",
+    "t3_1tncv7x",
+    "t3_1tncvfo",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1031,6 +996,14 @@
     "t3_1tlq84y",
     "t3_1tmjv1q",
     "t3_1tmjx02",
-    "t3_1tmjz61"
+    "t3_1tmjz61",
+    "t3_1tn7qw2",
+    "t3_1tn7rir",
+    "t3_1tn7saa",
+    "t3_1tn7vni",
+    "t3_1tn7wmh",
+    "t3_1tn7y0p",
+    "t3_1tn7y2r",
+    "t3_1tn7yqf"
   ]
 }
