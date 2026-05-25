@@ -1,14 +1,13 @@
 {
   "instant_seen_post_ids": [
-    "t3_1tmpz2u",
-    "t3_1tmq28k",
-    "t3_1tmq4nj",
-    "t3_1tmq57j",
-    "t3_1tmq672",
-    "t3_1tmq69t",
-    "t3_1tmqach",
-    "t3_1tmqbru",
-    "t3_1tmqeyg",
+    "t3_1tms482",
+    "t3_1tms8vz",
+    "t3_1tms9ex",
+    "t3_1tmsaae",
+    "t3_1tmscmo",
+    "t3_1tmsdec",
+    "t3_1tmsdev",
+    "t3_1tmsimh",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -499,9 +498,10 @@
     "t3_1tmjzxe",
     "t3_1tmm9ui",
     "t3_1tmocre",
-    "t3_1tmocus"
+    "t3_1tmocus",
+    "t3_1tmpz2u"
   ],
-  "last_run_utc": 1779662083,
+  "last_run_utc": 1779667397,
   "last_summary_utc": 1779546300,
   "summary_buffer": [
     {
@@ -516,18 +516,30 @@
         "title": "[For Hire] Custom AI Agents & Automations Developer (or $25/hour)"
       },
       "reason": "matched required groups: opportunity: for hire; target role: crm"
+    },
+    {
+      "post": {
+        "author": "/u/Mochiba08",
+        "created_utc": 1779666773,
+        "id": "t3_1tmsaae",
+        "link_flair_text": "",
+        "permalink": "/r/AskHR/comments/1tmsaae/au_fixed_term_contracts_and_the_definition_of/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Context: I have been in a leave-cover fixed term role for almost 15 months (4 total fixed term contract extensions). That person has now resigned, and my workplace wants to keep me (yay!) but they want to restructure the role. But this may take some time to get approved, etc before they formally advertise. And therefore, I&#39;m assuming they&#39;ll have to offer me another fixed term contract. But I&#39;m nervous whether or not they can, now that it&#39;s no longer a leave-cover role.</p> <p>I&#39;ve checked the award I&#39;m under, and this seems to be the section/s that cover the situation (emphasis mine):</p> <p><em>11.3 The use of fixed-term employment must be limited to the employment of an employee engaged on work activity that comes within the description of one or more of the following circumstances:</em> </p> <p><em>(c) Replacement employee means an employee:</em> </p> <p><em>(ii) performing the duties of:</em> </p> <ul> <li><em>a vacant position for which the employer has made a definite decision to fill and has</em> <strong><em>commenced recruitment action;</em></strong></li> </ul> <p>My question - what counts as &quot;recruitment action&quot;? I can&#39;t find the definition of that anywhere.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mochiba08\"> /u/Mochiba08 </a> <br/> <span><a href=\"https://www.reddit.com/r/AskHR/comments/1tmsaae/au_fixed_term_contracts_and_the_definition_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/AskHR/comments/1tmsaae/au_fixed_term_contracts_and_the_definition_of/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/AskHR",
+        "title": "[AU] Fixed term contracts and the definition of \"recruitment action\""
+      },
+      "reason": "matched required groups: opportunity: contract; target role: recruitment"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1tmpz2u",
-    "t3_1tmq28k",
-    "t3_1tmq4nj",
-    "t3_1tmq57j",
-    "t3_1tmq672",
-    "t3_1tmq69t",
-    "t3_1tmqach",
-    "t3_1tmqbru",
-    "t3_1tmqeyg",
+    "t3_1tms482",
+    "t3_1tms8vz",
+    "t3_1tms9ex",
+    "t3_1tmsaae",
+    "t3_1tmscmo",
+    "t3_1tmsdec",
+    "t3_1tmsdev",
+    "t3_1tmsimh",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1018,6 +1030,7 @@
     "t3_1tmjzxe",
     "t3_1tmm9ui",
     "t3_1tmocre",
-    "t3_1tmocus"
+    "t3_1tmocus",
+    "t3_1tmpz2u"
   ]
 }
