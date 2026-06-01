@@ -1,9 +1,17 @@
 {
   "instant_seen_post_ids": [
-    "t3_1tu7clr",
-    "t3_1tu7dnu",
-    "t3_1tu7f7u",
-    "t3_1tu7gcl",
+    "t3_1tu9n3p",
+    "t3_1tu9nx5",
+    "t3_1tu9o3x",
+    "t3_1tu9oso",
+    "t3_1tu9qt0",
+    "t3_1tu9u77",
+    "t3_1tu9xrd",
+    "t3_1tu9y4l",
+    "t3_1tua0br",
+    "t3_1tua12t",
+    "t3_1tua1ck",
+    "t3_1tua1jr",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -491,17 +499,9 @@
     "t3_1tu0vlt",
     "t3_1tu0xt3",
     "t3_1tu0xy0",
-    "t3_1tu0y1f",
-    "t3_1tu0y83",
-    "t3_1tu0ybe",
-    "t3_1tu1y51",
-    "t3_1tu1ywo",
-    "t3_1tu1z64",
-    "t3_1tu1zw1",
-    "t3_1tu204x",
-    "t3_1tu215v"
+    "t3_1tu0y1f"
   ],
-  "last_run_utc": 1780352443,
+  "last_run_utc": 1780357873,
   "last_summary_utc": 1780338731,
   "summary_buffer": [
     {
@@ -529,13 +529,34 @@
         "title": "Any HMs or recruiters available for positioning feedback?"
       },
       "reason": "matched required groups: opportunity: position; target role: recruiter"
+    },
+    {
+      "post": {
+        "author": "/u/westcoastdreams17",
+        "created_utc": 1780356790,
+        "id": "t3_1tu9oso",
+        "link_flair_text": "",
+        "permalink": "/r/jobs/comments/1tu9oso/new_job_wants_to_verify_my_self_employment/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>To make this short, I got offered a full-time job that is contingent upon a background check clearing. I have no criminal history, so I&#39;m not concerned about that at all. What I am concerned about is that they want to investigate the last 8 years of my employment. I have been at my current job for about five and a half years now and that is what I had listed as my most recent employer on my application. Prior to that, I had listed that I worked as a self employed cosmetologist. I did indeed go through beauty school and I keep my license active in the state that I live in. I never did it as a career but I would provide services to friends and family.</p> <p>The recruiter I talked to said the background team will most likely want to see some type of pay stub or tax documents around it. Since I never did cosmetology services constantly, I never claimed this on my taxes. All I have is an active license and I don&#39;t know if that is enough to prove what I put on my application is accurate </p> <p>Does anyone feel this is going to hurt my chances of moving forward with this company? It&#39;s not like I lied, my only hurdle is proving that what I wrote is true. I&#39;m also not going to give notice at my current job until I have a for sure offer. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/westcoastdreams17\"> /u/westcoastdreams17 </a> <br/> <span><a href=\"https://www.reddit.com/r/jobs/comments/1tu9oso/new_job_wants_to_verify_my_self_employment/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/jobs/comments/1tu9oso/new_job_wants_to_verify_my_self_employment/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/jobs",
+        "title": "New job wants to verify my self employment"
+      },
+      "reason": "matched required groups: opportunity: job; target role: recruiter"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1tu7clr",
-    "t3_1tu7dnu",
-    "t3_1tu7f7u",
-    "t3_1tu7gcl",
+    "t3_1tu9n3p",
+    "t3_1tu9nx5",
+    "t3_1tu9o3x",
+    "t3_1tu9oso",
+    "t3_1tu9qt0",
+    "t3_1tu9u77",
+    "t3_1tu9xrd",
+    "t3_1tu9y4l",
+    "t3_1tua0br",
+    "t3_1tua12t",
+    "t3_1tua1ck",
+    "t3_1tua1jr",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1023,14 +1044,6 @@
     "t3_1tu0vlt",
     "t3_1tu0xt3",
     "t3_1tu0xy0",
-    "t3_1tu0y1f",
-    "t3_1tu0y83",
-    "t3_1tu0ybe",
-    "t3_1tu1y51",
-    "t3_1tu1ywo",
-    "t3_1tu1z64",
-    "t3_1tu1zw1",
-    "t3_1tu204x",
-    "t3_1tu215v"
+    "t3_1tu0y1f"
   ]
 }
