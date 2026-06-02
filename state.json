@@ -1,17 +1,16 @@
 {
   "instant_seen_post_ids": [
-    "t3_1tu9n3p",
-    "t3_1tu9nx5",
-    "t3_1tu9o3x",
-    "t3_1tu9oso",
-    "t3_1tu9qt0",
-    "t3_1tu9u77",
-    "t3_1tu9xrd",
-    "t3_1tu9y4l",
-    "t3_1tua0br",
-    "t3_1tua12t",
-    "t3_1tua1ck",
-    "t3_1tua1jr",
+    "t3_1tufnsw",
+    "t3_1tufod2",
+    "t3_1tufor2",
+    "t3_1tufrw8",
+    "t3_1tuftii",
+    "t3_1tufuxm",
+    "t3_1tufvfk",
+    "t3_1tufvp2",
+    "t3_1tufwqc",
+    "t3_1tufyaz",
+    "t3_1tufyuz",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -499,9 +498,10 @@
     "t3_1tu0vlt",
     "t3_1tu0xt3",
     "t3_1tu0xy0",
-    "t3_1tu0y1f"
+    "t3_1tu0y1f",
+    "t3_1tu9n3p"
   ],
-  "last_run_utc": 1780357873,
+  "last_run_utc": 1780373796,
   "last_summary_utc": 1780338731,
   "summary_buffer": [
     {
@@ -542,21 +542,33 @@
         "title": "New job wants to verify my self employment"
       },
       "reason": "matched required groups: opportunity: job; target role: recruiter"
+    },
+    {
+      "post": {
+        "author": "/u/Clutch4Dubs_TTV",
+        "created_utc": 1780373132,
+        "id": "t3_1tufrw8",
+        "link_flair_text": "",
+        "permalink": "/r/recruiting/comments/1tufrw8/recruiters_would_this_change_the_way_you_do_your/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>Ok, this might seem like an ad, but it&#39;s a genuine question</p> <p>Would AI automations that do the same thing recruiters do-find people on social media that match criteria and message them be genuinely helpful in your day.</p> <p>And does this already exist and are you guys not using it even though it doesn&#39;t</p> <p>If you wouldn&#39;t use it why not?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Clutch4Dubs_TTV\"> /u/Clutch4Dubs_TTV </a> <br/> <span><a href=\"https://www.reddit.com/r/recruiting/comments/1tufrw8/recruiters_would_this_change_the_way_you_do_your/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/recruiting/comments/1tufrw8/recruiters_would_this_change_the_way_you_do_your/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/recruiting",
+        "title": "Recruiters- would this change the way you do your job?"
+      },
+      "reason": "matched required groups: opportunity: job; target role: recruiter"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1tu9n3p",
-    "t3_1tu9nx5",
-    "t3_1tu9o3x",
-    "t3_1tu9oso",
-    "t3_1tu9qt0",
-    "t3_1tu9u77",
-    "t3_1tu9xrd",
-    "t3_1tu9y4l",
-    "t3_1tua0br",
-    "t3_1tua12t",
-    "t3_1tua1ck",
-    "t3_1tua1jr",
+    "t3_1tufnsw",
+    "t3_1tufod2",
+    "t3_1tufor2",
+    "t3_1tufrw8",
+    "t3_1tuftii",
+    "t3_1tufuxm",
+    "t3_1tufvfk",
+    "t3_1tufvp2",
+    "t3_1tufwqc",
+    "t3_1tufyaz",
+    "t3_1tufyuz",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1044,6 +1056,7 @@
     "t3_1tu0vlt",
     "t3_1tu0xt3",
     "t3_1tu0xy0",
-    "t3_1tu0y1f"
+    "t3_1tu0y1f",
+    "t3_1tu9n3p"
   ]
 }
