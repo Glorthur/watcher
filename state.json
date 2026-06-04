@@ -1,12 +1,11 @@
 {
   "instant_seen_post_ids": [
-    "t3_1tw9l5n",
-    "t3_1tw9lzg",
-    "t3_1tw9nvq",
-    "t3_1tw9w33",
-    "t3_1tw9w6m",
-    "t3_1tw9xi6",
-    "t3_1twa0kg",
+    "t3_1twfpz5",
+    "t3_1twfrk8",
+    "t3_1twftym",
+    "t3_1twfwce",
+    "t3_1twfzso",
+    "t3_1twg1gp",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -499,19 +498,33 @@
     "t3_1tw1ky6",
     "t3_1tw1l21",
     "t3_1tw1n6v",
-    "t3_1tw1nnb"
+    "t3_1tw1nnb",
+    "t3_1tw9l5n"
   ],
-  "last_run_utc": 1780538776,
+  "last_run_utc": 1780556763,
   "last_summary_utc": 1780420380,
-  "summary_buffer": [],
+  "summary_buffer": [
+    {
+      "post": {
+        "author": "/u/boulder-boir",
+        "created_utc": 1780555605,
+        "id": "t3_1twfpz5",
+        "link_flair_text": "",
+        "permalink": "/r/forhire/comments/1twfpz5/for_hire_n8n_automation_engineer_ai_agents/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>I build production n8n workflows: B2B lead generation pipelines, HubSpot CRM integrations, OpenAI/Claude agent workflows, and <a href=\"http://Make.com\">Make.com</a> \u2192 n8n migrations. Sandbox-first delivery, documented JSON handoffs. Available immediately. DM with requirements.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/boulder-boir\"> /u/boulder-boir </a> <br/> <span><a href=\"https://www.reddit.com/r/forhire/comments/1twfpz5/for_hire_n8n_automation_engineer_ai_agents/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/forhire/comments/1twfpz5/for_hire_n8n_automation_engineer_ai_agents/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/forhire",
+        "title": "[FOR HIRE] n8n Automation Engineer | AI Agents, HubSpot CRM, Make.com Migration | $30/hr"
+      },
+      "reason": "matched required groups: opportunity: for hire; target role: crm, hubspot"
+    }
+  ],
   "summary_seen_post_ids": [
-    "t3_1tw9l5n",
-    "t3_1tw9lzg",
-    "t3_1tw9nvq",
-    "t3_1tw9w33",
-    "t3_1tw9w6m",
-    "t3_1tw9xi6",
-    "t3_1twa0kg",
+    "t3_1twfpz5",
+    "t3_1twfrk8",
+    "t3_1twftym",
+    "t3_1twfwce",
+    "t3_1twfzso",
+    "t3_1twg1gp",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1004,6 +1017,7 @@
     "t3_1tw1ky6",
     "t3_1tw1l21",
     "t3_1tw1n6v",
-    "t3_1tw1nnb"
+    "t3_1tw1nnb",
+    "t3_1tw9l5n"
   ]
 }
