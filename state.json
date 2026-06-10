@@ -1,10 +1,20 @@
 {
   "instant_seen_post_ids": [
-    "t3_1u1vxz2",
-    "t3_1u1w6z0",
-    "t3_1u1w7o7",
-    "t3_1u1w81k",
-    "t3_1u1w8ky",
+    "t3_1u20844",
+    "t3_1u2092s",
+    "t3_1u20av4",
+    "t3_1u20czr",
+    "t3_1u20ddy",
+    "t3_1u20eq2",
+    "t3_1u20gid",
+    "t3_1u20gxf",
+    "t3_1u20hkk",
+    "t3_1u20i23",
+    "t3_1u20ijy",
+    "t3_1u20itc",
+    "t3_1u20j1n",
+    "t3_1u20j24",
+    "t3_1u20lcl",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -489,19 +499,9 @@
     "t3_1tykuu1",
     "t3_1u0hd9a",
     "t3_1u1cckl",
-    "t3_1u1j2n4",
-    "t3_1u1j3a6",
-    "t3_1u1j3gk",
-    "t3_1u1r02r",
-    "t3_1u1r195",
-    "t3_1u1r24e",
-    "t3_1u1r44x",
-    "t3_1u1r495",
-    "t3_1u1r6hc",
-    "t3_1u1r9r6",
-    "t3_1u1rbcu"
+    "t3_1u1j2n4"
   ],
-  "last_run_utc": 1781080280,
+  "last_run_utc": 1781094222,
   "last_summary_utc": 1781020167,
   "summary_buffer": [
     {
@@ -516,14 +516,37 @@
         "title": "Small Balloon Business Looking for a CRM Focused on Growth & Lead Management"
       },
       "reason": "matched required groups: opportunity: looking for; target role: crm"
+    },
+    {
+      "post": {
+        "author": "/u/Current-Preference57",
+        "created_utc": 1781093386,
+        "id": "t3_1u20czr",
+        "link_flair_text": "",
+        "permalink": "/r/forhire/comments/1u20czr/for_hire_fulltime_remote_va_native_english_admin/",
+        "selftext": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m available now and looking for one person or team to work with full-time and actually treat your business like it&#39;s my own.</p> <p><strong>What I bring:</strong></p> <ul> <li>Native-level English \u2014 written and spoken</li> <li>Single-client focus \u2014 you get my full hours and full attention every day</li> <li>Fast onboarder \u2014 within the first week I&#39;ll know your systems, your tone, and how you like things done</li> <li>Flexible timezone \u2014 I work around your business hours, EST, PST, wherever you are</li> <li>Experienced across inbox management, customer support, sales outreach, CRM, lead research, scheduling, and light copywriting</li> </ul> <p><strong>Why this is different from a typical hire:</strong></p> <p>Most VAs are managing 4\u20136 clients at once. I&#39;m not. One client, full commitment, long-term focus. You won&#39;t have to chase me down or re-explain things every Monday.</p> <p>I&#39;ve handled everything from managing a full inbox and responding to inbound leads, to building CRM pipelines, writing outreach sequences, and keeping day-to-day ops running for small teams.</p> <p><strong>Rate:</strong> $280/week | Full-time | Long-term preferred</p> <p>Drop me a DM and tell me what you&#39;re working on. I reply fast, and if it&#39;s a good fit, I can start this week.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Current-Preference57\"> /u/Current-Preference57 </a> <br/> <span><a href=\"https://www.reddit.com/r/forhire/comments/1u20czr/for_hire_fulltime_remote_va_native_english_admin/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/forhire/comments/1u20czr/for_hire_fulltime_remote_va_native_english_admin/\">[comments]</a></span>",
+        "subreddit_name_prefixed": "r/forhire",
+        "title": "[For Hire] Full-Time Remote VA | Native English | Admin, Support & Sales Outreach | $280/week"
+      },
+      "reason": "matched required groups: opportunity: for hire; target role: crm, copywriting"
     }
   ],
   "summary_seen_post_ids": [
-    "t3_1u1vxz2",
-    "t3_1u1w6z0",
-    "t3_1u1w7o7",
-    "t3_1u1w81k",
-    "t3_1u1w8ky",
+    "t3_1u20844",
+    "t3_1u2092s",
+    "t3_1u20av4",
+    "t3_1u20czr",
+    "t3_1u20ddy",
+    "t3_1u20eq2",
+    "t3_1u20gid",
+    "t3_1u20gxf",
+    "t3_1u20hkk",
+    "t3_1u20i23",
+    "t3_1u20ijy",
+    "t3_1u20itc",
+    "t3_1u20j1n",
+    "t3_1u20j24",
+    "t3_1u20lcl",
     "t3_1sifujv",
     "t3_1sifutf",
     "t3_1sifxq1",
@@ -1008,16 +1031,6 @@
     "t3_1tykuu1",
     "t3_1u0hd9a",
     "t3_1u1cckl",
-    "t3_1u1j2n4",
-    "t3_1u1j3a6",
-    "t3_1u1j3gk",
-    "t3_1u1r02r",
-    "t3_1u1r195",
-    "t3_1u1r24e",
-    "t3_1u1r44x",
-    "t3_1u1r495",
-    "t3_1u1r6hc",
-    "t3_1u1r9r6",
-    "t3_1u1rbcu"
+    "t3_1u1j2n4"
   ]
 }
