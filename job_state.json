@@ -1,5 +1,5 @@
 {
-  "last_run_utc": 1783445169,
+  "last_run_utc": 1783455183,
   "seen_ids": [
     "ashby:deel:0043b9b8-54ed-4fc6-a3d1-faf550de3b5e",
     "ashby:deel:02b1b917-a70d-49e1-a6eb-bcafb5161ed4",
@@ -1393,6 +1393,7 @@
     "greenhouse:gitlab:8609650002",
     "greenhouse:gitlab:8609688002",
     "greenhouse:gitlab:8610402002",
+    "greenhouse:gitlab:8610803002",
     "greenhouse:gitlab:8610952002",
     "greenhouse:gitlab:8611663002",
     "greenhouse:gitlab:8611764002",
@@ -1404,6 +1405,7 @@
     "greenhouse:gitlab:8614942002",
     "greenhouse:gitlab:8614945002",
     "greenhouse:gitlab:8615513002",
+    "greenhouse:gitlab:8615797002",
     "greenhouse:gitlab:8615811002",
     "greenhouse:gitlab:8615946002",
     "greenhouse:gitlab:8616847002",
@@ -3686,6 +3688,8 @@
     "greenhouse:sumup:8622070002",
     "greenhouse:sumup:8622242002",
     "greenhouse:sumup:8622736002",
+    "greenhouse:sumup:8623014002",
+    "greenhouse:sumup:8623026002",
     "greenhouse:webflow:6124408",
     "greenhouse:webflow:6709861",
     "greenhouse:webflow:6812928",
