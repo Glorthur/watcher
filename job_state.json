@@ -1,8 +1,6 @@
 {
-  "last_run_utc": 1785948710,
+  "last_run_utc": 1785955788,
   "seen_ids": [
-    "greenhouse:hubspotjobs:7645438",
-    "greenhouse:hubspotjobs:7645854",
     "greenhouse:hubspotjobs:7656897",
     "greenhouse:hubspotjobs:7656911",
     "greenhouse:hubspotjobs:7656913",
@@ -2401,6 +2399,7 @@
     "greenhouse:sumup:8682251002",
     "greenhouse:sumup:8682293002",
     "greenhouse:sumup:8682297002",
+    "greenhouse:sumup:8684319002",
     "greenhouse:webflow:6124408",
     "greenhouse:webflow:6709861",
     "greenhouse:webflow:6812928",
@@ -2572,6 +2571,7 @@
     "greenhouse:wikimedia:8060261",
     "greenhouse:wikimedia:8060307",
     "greenhouse:wikimedia:8090103",
+    "greenhouse:wikimedia:8105376",
     "jobicy:141688",
     "jobicy:141689",
     "jobicy:141690",
