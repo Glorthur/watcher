@@ -1,7 +1,6 @@
 {
-  "last_run_utc": 1786992985,
+  "last_run_utc": 1786995655,
   "seen_ids": [
-    "greenhouse:remotecom:7741379003",
     "greenhouse:remotecom:7741381003",
     "greenhouse:remotecom:7741382003",
     "greenhouse:remotecom:7741383003",
@@ -1670,6 +1669,7 @@
     "greenhouse:sumup:8705983002",
     "greenhouse:sumup:8705989002",
     "greenhouse:sumup:8706595002",
+    "greenhouse:sumup:8706915002",
     "greenhouse:sumup:8713373002",
     "greenhouse:webflow:6124408",
     "greenhouse:webflow:6709861",
